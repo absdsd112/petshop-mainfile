@@ -9,7 +9,7 @@
 
 <div class="text-center bg-beige">
 	<div
-		class="p-40 text-4xl w-screen text-white font-snack tracking-wider bg-blue-400"
+		class="p-15 text-4xl w-screen text-white font-snack tracking-wider bg-blue-400"
 		style="background-image: url('https://wallpaperaccess.com/full/3146237.jpg'); background-size: cover; background-position: center;"
 	>
 		<div class="bg-gray-800 bg-opacity-20 p-4 inline-block rounded">
