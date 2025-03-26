@@ -9,8 +9,8 @@
 
 <div class="text-center bg-beige">
 	<div
-		class="p-15 text-4xl w-screen text-white font-snack tracking-wider bg-blue-400"
-		style="background-image: url('https://wallpaperaccess.com/full/3146237.jpg'); background-size: cover; background-position: center;"
+		class="p-40 text-4xl w-screen text-white font-snack tracking-wider bg-blue-400"
+		style="background-image: url('https://cdn0.animalwised.com/en/posts/8/1/7/5_tips_to_help_a_cat_and_a_dog_live_together_and_get_along_718_orig.jpg'); background-size: cover; background-position: center;"
 	>
 		<div class="bg-gray-800 bg-opacity-20 p-4 inline-block rounded">
 			Love Starts with Fresh healthy Food
