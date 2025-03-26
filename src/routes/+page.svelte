@@ -9,8 +9,8 @@
 
 <div class="text-center bg-beige">
 	<div
-		class="p-80 text-4xl w-screen text-white font-snack tracking-wider bg-blue-400"
-		style="background-image: url('https://www.pixelstalk.net/wp-content/uploads/wallpapers/dog-and-cat-cocker-spaniel-puppy-small-ginger-kitten-kiss.jpg'); background-size: cover; background-position: center;"
+		class="p-40 text-4xl w-screen text-white font-snack tracking-wider bg-blue-400"
+		style="background-image: url('https://wallpaperaccess.com/full/3146237.jpg'); background-size: cover; background-position: center;"
 	>
 		<div class="bg-gray-800 bg-opacity-20 p-4 inline-block rounded">
 			Love Starts with Fresh healthy Food
