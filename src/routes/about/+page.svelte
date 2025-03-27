@@ -62,10 +62,10 @@
   </div>
 
   <!-- Join Club Section -->
-  <div class="bg-gray-100 p-6 rounded-lg text-center">
+  <div class="bg-yellow-100 p-6 rounded-lg text-center">
     <h2 class="text-2xl font-bold mb-4">Join our Furry Fresh Club and make new friends!!</h2>
     <form on:submit={handleSubmit} class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4">
-      <input type="email" placeholder="you@example.com" class="p-2 border rounded-md w-full md:w-auto">
+      <input type="email" placholder="you@example.com" class="p-2 border rounded-md w-full md:w-auto">
       <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Join Now</button>
     </form>
     {#if notification}

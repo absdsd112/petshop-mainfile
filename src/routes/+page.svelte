@@ -5,6 +5,15 @@
 	export let data;
 	const products = data.props.products;
 	const besteller = products.filter((product) => product.tags.includes('bestseller'));
+	let notification = "";
+
+function handleSubmit(event) {
+  event.preventDefault();
+  notification = "Thanks for joining our Furry Fresh Club. We will have exclusive offers for your furry friend!";
+  setTimeout(() => {
+	notification = "";
+  }, 5000); // Clear notification after 5 seconds
+}
 </script>
 
 <div class="text-center bg-beige">
@@ -26,7 +35,11 @@
 		<ProductList products={besteller} />
 	</div>
 	<div class="pt-16">
-		<div class="text-3xl font-bold mb-8">{$t('home.reasons_title')}</div>
+		<div class="bg-dark-beige p-4 rounded">
+		<div class="text-4xl font-bold">{$t('home.reasons_title')}</div>
+	</div>
+	<br />
+	<br />
 		<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 			<div class="text-center">
 				<div class="text-container">
@@ -60,12 +73,27 @@
 					<p class="text-lg">{$t('home.reasons.organic_description')}</p>
 					
 				</div>
-				<br />
-					<br />
-					<br />
-					<br />
+				
 			</div>
+			<br />
+			<br />
+			<br />
 		</div>
+		<!-- Join Club Section -->
+		<div class="bg-yellow-100 p-6 rounded-lg text-center">
+			<h2 class="text-2xl font-bold mb-4">Join our Furry Fresh Club and make new friends!!</h2>
+			<form on:submit={handleSubmit} class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4">
+			  <input type="email" placeholder="you@example.com" class="p-2 border rounded-md w-full md:w-auto">
+			  <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Join Now</button>
+			</form>
+			{#if notification}
+			  <div class="mt-4 p-4 bg-gradient-to-r from-green-400 to-blue-500 text-white font-medium rounded-lg shadow-lg animate-bounce">
+				{notification}
+			  </div>
+			{/if}
+		  </div>
+		  <br />
+		  <br />
 	</div>
 </div>
 
