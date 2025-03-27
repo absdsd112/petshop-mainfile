@@ -18,13 +18,13 @@
 				<a href="https://www.facebook.com/">
 					<img src="/icon-facebook.svg" alt="" class="h-8" />
 				</a>
-				<a href="#">
+				<a href="https://x.com/">
 					<img src="/icon-twitter.svg" alt="" class="h-8" />
 				</a>
-				<a href="#">
+				<a href="https://www.pinterest.com/">
 					<img src="/icon-pinterest.svg" alt="" class="h-8" />
 				</a>
-				<a href="#">
+				<a href="https://www.instagram.com/">
 					<img src="/icon-instagram.svg" alt="" class="h-8" />
 				</a>
 			</div>
