@@ -43,7 +43,13 @@
 					? 'border-b-2'
 					: ''}"
 				href="/about">{$t('navbar.about')}</a
+					>
+			<a
+				class="hover:text-lightGray {$page.url.pathname == `/contact` && !$IsCartOpen ? 'border-b-2' : ''}"
+				sveltekit:prefetch
+				href="/contact">{$t('navbar.contact')}</a
 			>
+				
 		</div>
 		<!-- Cart Button -->
 		<!-- svelte-ignore a11y-click-events-have-key-events -->

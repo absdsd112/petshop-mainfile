@@ -58,7 +58,18 @@ export default {
 		'home.reasons.flavour_title': 'Better Flavour For Pets',
 		'home.reasons.flavour_description': 'Thanks To 50 Years Of Knowledge And Craft, We Know Exactly What Makes Your Dog Truly Happy.',
 		'home.reasons.organic_title': 'Organic Products',
-		'home.reasons.organic_description': 'We Make Sure Our Sourcing Of Raw Materials Is Organic.'
+		'home.reasons.organic_description': 'We Make Sure Our Sourcing Of Raw Materials Is Organic.',
+		'navbar.contact': 'Contact Us',
+		'about.history.title': 'Our History',
+		'about.history.content': 'The brand "Furry Fresh" is inspired by an adorable female Border Terrier named (you guessed it!) Furry. It was this joyful ball of fur, a true star in the making, that sparked our journey to create high-quality pet food. About a decade ago, Furry\'s owner, Henrietta, discovered how challenging it was to find pet food with natural and premium ingredients. One day, Furry fell ill, suffering from skin lesions and painful itching. Determined to restore her health through better nutrition, Henrietta began cooking for her. After all, why shouldn\'t every family member, whether human or not, enjoy the same quality food? Brimming with inspiration, Henrietta teamed up with experts, veterinarians, and animal nutritionists to develop nourishing, delicious, and high-quality food for all our four-legged friends. At Furry Fresh, "quality" means food made from freshly prepared premium meat (without animal or meat meal) and naturally nourishing, delicious ingredients. With a successful recipe and many happy dogs, Furry Fresh was born.',
+		'about.values.title': 'Our Values',
+		'about.values.organic': 'Organic Products',
+		'about.values.flavor': 'Better Flavor',
+		'about.values.local': 'Local Productions',
+		'about.values.meat': 'Meat As Numbers #1',
+		'about.club.title': 'Join our Furry Fresh Club and make new friends!!',
+		'about.club.button': 'Join Now',
+		'about.notification': 'Thanks for joining our Furry Fresh Club. We will have exclusive offers for your furry friend!'
 	},
 	de: {
 		'navbar.home': 'Home',
@@ -120,7 +131,18 @@ export default {
 		'home.reasons.flavour_title': 'Besserer Geschmack für Haustiere',
 		'home.reasons.flavour_description': 'Dank 50 Jahren Wissen und Handwerkskunst wissen wir genau, was Ihren Hund wirklich glücklich macht.',
 		'home.reasons.organic_title': 'Biologische Produkte',
-		'home.reasons.organic_description': 'Wir stellen sicher, dass unsere Rohstoffbeschaffung biologisch ist.'
+		'home.reasons.organic_description': 'Wir stellen sicher, dass unsere Rohstoffbeschaffung biologisch ist.',
+		'navbar.contact': 'Kontaktieren Sie uns',
+		'about.history.title': 'Unsere Geschichte',
+		'about.history.content': 'Die Marke "Furry Fresh" ist inspiriert von einer entzückenden weiblichen Border Terrier namens (Sie haben es erraten!) Furry. Es war dieser fröhliche Fellball, ein wahrer Star im Entstehen, der unsere Reise zur Herstellung von hochwertigem Tierfutter inspirierte. Vor etwa einem Jahrzehnt entdeckte Furrys Besitzerin Henrietta, wie schwierig es war, Tierfutter mit natürlichen und hochwertigen Zutaten zu finden. Eines Tages wurde Furry krank, litt unter Hautläsionen und schmerzhaftem Juckreiz. Entschlossen, ihre Gesundheit durch bessere Ernährung wiederherzustellen, begann Henrietta, für sie zu kochen. Schließlich sollte jedes Familienmitglied, ob Mensch oder nicht, die gleiche Qualität an Nahrung genießen! Voller Inspiration arbeitete Henrietta mit Experten, Tierärzten und Tierernährungswissenschaftlern zusammen, um nahrhaftes, köstliches und hochwertiges Futter für all unsere vierbeinigen Freunde zu entwickeln. Bei Furry Fresh bedeutet "Qualität" Nahrung aus frisch zubereitetem Premiumfleisch (ohne Tier- oder Fleischmehl) und natürlich nahrhaften, köstlichen Zutaten. Mit einem erfolgreichen Rezept und vielen glücklichen Hunden wurde Furry Fresh geboren.',
+		'about.values.title': 'Unsere Werte',
+		'about.values.organic': 'Biologische Produkte',
+		'about.values.flavor': 'Besserer Geschmack',
+		'about.values.local': 'Lokale Produktionen',
+		'about.values.meat': 'Fleisch als Nummer #1',
+		'about.club.title': 'Treten Sie unserem Furry Fresh Club bei und finden Sie neue Freunde!!',
+		'about.club.button': 'Jetzt beitreten',
+		'about.notification': 'Vielen Dank, dass Sie unserem Furry Fresh Club beigetreten sind. Wir werden exklusive Angebote für Ihren pelzigen Freund haben!'
 	},
 	fr: {
 		'navbar.home': 'Accueil',
@@ -181,6 +203,17 @@ export default {
 		'home.reasons.flavour_title': 'Meilleur goût pour les animaux',
 		'home.reasons.flavour_description': 'Grâce à 50 ans de connaissances et de savoir-faire, nous savons exactement ce qui rend votre chien vraiment heureux.',
 		'home.reasons.organic_title': 'Produits biologiques',
-		'home.reasons.organic_description': 'Nous veillons à ce que notre approvisionnement en matières premières soit biologique.'
+		'home.reasons.organic_description': 'Nous veillons à ce que notre approvisionnement en matières premières soit biologique.',
+		'navbar.contact': 'Contactez-nous',
+		'about.history.title': 'Notre Histoire',
+		'about.history.content': 'La marque "Furry Fresh" est inspirée par une adorable femelle Border Terrier nommée (vous l\'avez deviné !) Furry. C\'est cette boule de poils joyeuse, une véritable star en devenir, qui a inspiré notre voyage pour créer des aliments pour animaux de haute qualité. Il y a environ une décennie, la propriétaire de Furry, Henrietta, a découvert à quel point il était difficile de trouver des aliments pour animaux avec des ingrédients naturels et de qualité supérieure. Un jour, Furry est tombée malade, souffrant de lésions cutanées et de démangeaisons douloureuses. Déterminée à rétablir sa santé grâce à une meilleure nutrition, Henrietta a commencé à cuisiner pour elle. Après tout, pourquoi chaque membre de la famille, qu\'il soit humain ou non, ne devrait-il pas profiter de la même qualité de nourriture ? Pleine d\'inspiration, Henrietta a collaboré avec des experts, des vétérinaires et des nutritionnistes pour animaux pour développer des aliments nourrissants, délicieux et de haute qualité pour tous nos amis à quatre pattes. Chez Furry Fresh, "qualité" signifie des aliments fabriqués à partir de viande premium fraîchement préparée (sans farine animale ou de viande) et d\'ingrédients naturellement nourrissants et délicieux. Avec une recette réussie et de nombreux chiens heureux, Furry Fresh est né.',
+		'about.values.title': 'Nos Valeurs',
+		'about.values.organic': 'Produits Biologiques',
+		'about.values.flavor': 'Meilleure Saveur',
+		'about.values.local': 'Productions Locales',
+		'about.values.meat': 'La Viande Comme Numéro #1',
+		'about.club.title': 'Rejoignez notre Furry Fresh Club et faites de nouveaux amis !!',
+		'about.club.button': 'Rejoindre Maintenant',
+		'about.notification': 'Merci d\'avoir rejoint notre Furry Fresh Club. Nous aurons des offres exclusives pour votre ami à fourrure !'
 	}
 };
