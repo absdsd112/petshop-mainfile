@@ -25,8 +25,8 @@
 
 	// init language
 	init({
-		fallbackLocale: 'de',
-		initialLocale: 'de'
+		fallbackLocale: 'en',
+		initialLocale: 'en'
 	});
 </script>
 

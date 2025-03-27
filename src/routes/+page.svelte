@@ -20,53 +20,51 @@
 		</div>
 	</div>
 	<div class="pt-8">
-		<div class="text-2xl">{$t('home.bestseller_title')}</div>
+		<div class="bg-dark-beige p-4 rounded">
+			<div class="text-4xl">{$t('home.bestseller_title')}</div>
+		</div>
 		<ProductList products={besteller} />
 	</div>
 	<div class="pt-16">
-		<div class="text-3xl font-bold mb-8">The Reasons of Choosing Us</div>
+		<div class="text-3xl font-bold mb-8">{$t('home.reasons_title')}</div>
 		<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 			<div class="text-center">
-				<img src="/meat.png" alt="Meat Icon" class="mx-auto mb-4" />
-				<div class="font-bold text-2xl">Meat As Numbers #1</div>
-				<br />
-				<p class="text-lg">The Most Important Thing In A Carnivore’s Life, 
+				<div class="text-container">
+					<img src="/meat.png" alt="Meat Icon" class="mx-auto mb-4" />
+					<div class="font-bold text-2xl">{$t('home.reasons.meat_title')}</div>
 					<br />
-					Next To His Family, Is Meat. It’s Exactly 
-					<br />
-					What He Needs For A Supple Digestive Process.</p>
+					<p class="text-lg">{$t('home.reasons.meat_description')}</p>
+				</div>
 			</div>
 			<div class="text-center">
-				<img src="/factory.png" alt="Factory Icon" class="mx-auto mb-4" />
-				<div class="font-bold text-2xl">Local Productions</div>
-				<br />
-				<p class="text-lg">Our Products Are Locally Produced 
+				<div class="text-container">
+					<img src="/factory.png" alt="Factory Icon" class="mx-auto mb-4" />
+					<div class="font-bold text-2xl">{$t('home.reasons.local_title')}</div>
 					<br />
-					In Our Own Factory In Veldhoven. 
-					<br />
-					Full Of Virtuous Ingredients. 
-					<br />
-					That’s Something To Be Truly Proud Of!</p>
+					<p class="text-lg">{$t('home.reasons.local_description')}</p>
+				</div>
 			</div>
 			<div class="text-center">
-				<img src="/Happy-dog.png" alt="Dog Icon" class="mx-auto mb-4" />
-				<div class="font-bold text-2xl">Better Flavour For Pets</div>
-				<br />
-				<p class="text-lg">Thanks To 50 Years Of Knowledge 
+				<div class="text-container">
+					<img src="/Happy-dog.png" alt="Dog Icon" class="mx-auto mb-4" />
+					<div class="font-bold text-2xl">{$t('home.reasons.flavour_title')}</div>
 					<br />
-					And Craft, We Know Exactly What 
-					<br />
-					Makes Your Dog Truly Happy.</p>
+					<p class="text-lg">{$t('home.reasons.flavour_description')}</p>
+				</div>
 			</div>
 			<div class="text-center">
-				<img src="/leaf.png" alt="Leaf Icon" class="mx-auto mb-4" />
-				<div class="font-bold text-2xl">Organic Products</div>
-				<br />
-				<p class="text-lg">We Make Sure Our Sourcing 
+				<div class="text-container">
+					<img src="/leaf.png" alt="Leaf Icon" class="mx-auto mb-4" />
+					<div class="font-bold text-2xl">{$t('home.reasons.organic_title')}</div>
 					<br />
-				Of Raw Materials Is Organic.</p>
+					<p class="text-lg">{$t('home.reasons.organic_description')}</p>
+					
+				</div>
+				<br />
+					<br />
+					<br />
+					<br />
 			</div>
-			<br />
 		</div>
 	</div>
 </div>
@@ -74,5 +72,24 @@
 <style>
 	.bg-beige {
 		background-color: beige;
+	}
+	.bg-dark-beige {
+		background-color: #d2b48c; /* Slightly darker beige */
+	}
+	.text-container {
+		width: 400px; /* Shortened width */
+		height: 400px; /* Make it square */
+		padding: 1rem;
+		border: 1px solid #e0e0e0; /* Softer border color */
+		border-radius: 16px; /* More rounded corners */
+		background: #d2b48c; /* Dark beige background */
+		box-shadow: 4px 4px 8px #b89b7a, -4px -4px 8px #f0d6b0; /* Adjusted shadow for dark beige */
+		margin: 0 auto; /* Center the container */
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		font-family: 'Arial', sans-serif; /* Professional font */
+		text-align: center; /* Center text alignment */
 	}
 </style>

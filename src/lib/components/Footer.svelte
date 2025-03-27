@@ -12,7 +12,7 @@
 			class="flex flex-col items-center justify-between space-y-4 pb-6 px-8 md:space-y-6 md:flex-col md:items-start"
 		>
 			<!-- Logo -->
-			<div class="text-3xl text-white">Blechbär</div>
+			<div class="text-3xl text-white">Follow Us</div>
 			<!-- Social Links Container -->
 			<div class="flex justify-center space-x-4">
 				<a href="#">

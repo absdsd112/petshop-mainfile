@@ -20,15 +20,15 @@
 <svelte:window bind:scrollY={y} />
 <nav class="bg-blue-400 text-white w-full p-4">
 	<!-- Language Button -->
-	<div class="absolute top-0 right-1 py-2 pr-2">
-		<select
-			class="cursor-pointer text-lightGray text-sm border-black bg-black"
-			bind:value={$locale}
-		>
-			{#each locales as l}
-				<option value={l}>{l}</option>
-			{/each}
-		</select>
+	<div class="absolute top-0 right-1 py-2 pr-2 flex space-x-2">
+		{#each locales as l}
+			<button
+				class="px-3 py-1 rounded-full border-2 {l === $locale ? 'bg-white text-black' : 'bg-black text-white'} hover:bg-gray-700 transition"
+				on:click={() => (locale.set(l))}
+			>
+				{l.toUpperCase()}
+			</button>
+		{/each}
 	</div>
 	<div class="flex flex-col items-center md:pl-14">
 		<!-- Menu Items -->
@@ -45,14 +45,14 @@
 				class="hover:text-lightGray {$page.url.pathname == `/woofshop` && !$IsCartOpen
 					? 'border-b-2'
 					: ''}"
-				href="/products">Shop</a
+				href="/products">{$t('navbar.products')}</a
 			>
 			<a
 				sveltekit:prefetch
 				class="hover:text-lightGray {$page.url.pathname == `/woofshop` && !$IsCartOpen
 					? 'border-b-2'
 					: ''}"
-				href="/about">About Us</a
+				href="/about">{$t('navbar.about')}</a
 			>
 		</div>
 		<!-- Cart Button -->

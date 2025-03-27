@@ -6,3 +6,9 @@
 </script>
 
 <ProductList {products} />
+
+<style>
+	:global(body) {
+		background-color: beige;
+	}
+</style>

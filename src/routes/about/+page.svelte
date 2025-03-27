@@ -1,12 +1,18 @@
 <script>
- 
+  let notification = "";
+
+  function handleSubmit(event) {
+    event.preventDefault();
+    notification = "Thanks for joining our Furry Fresh Club. We will have exclusive offers for your furry friend!";
+    setTimeout(() => {
+      notification = "";
+    }, 5000); // Clear notification after 5 seconds
+  }
 </script>
 
-<nav class="p-4 bg-gray-100">
-  <a href="/" class="text-blue-500 hover:underline">Home</a>
-</nav>
 
-<section class="about-content p-6 space-y-10">
+
+<section class="about-content p-6 space-y-10" style="background-color: beige;">
   <!-- Our History Section -->
   <div class="bg-[#A2D5C6] p-6 rounded-lg">
     <div class="flex flex-col md:flex-row items-center">
@@ -58,10 +64,15 @@
   <!-- Join Club Section -->
   <div class="bg-gray-100 p-6 rounded-lg text-center">
     <h2 class="text-2xl font-bold mb-4">Join our Furry Fresh Club and make new friends!!</h2>
-    <form class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4">
+    <form on:submit={handleSubmit} class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4">
       <input type="email" placeholder="you@example.com" class="p-2 border rounded-md w-full md:w-auto">
       <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Join Now</button>
     </form>
+    {#if notification}
+      <div class="mt-4 p-4 bg-gradient-to-r from-green-400 to-blue-500 text-white font-medium rounded-lg shadow-lg animate-bounce">
+        {notification}
+      </div>
+    {/if}
   </div>
 </section>
 

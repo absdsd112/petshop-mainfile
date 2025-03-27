@@ -1,8 +1,9 @@
 export default {
 	en: {
 		'navbar.home': 'Home',
-		'navbar.products': 'Products',
+		'navbar.products': 'Shop',
 		'navbar.shopping_cart': 'Shopping Cart',
+		'navbar.about': 'About Us',
 		'home.bestseller_title': 'Bestseller',
 		'productdetails.description.tax': 'incl. tax',
 		'productdetails.description.delivery_time': 'Delivery 5 - 8 Business Days',
@@ -48,12 +49,22 @@ export default {
 		'footer.about': 'About us',
 		'footer.shipping': 'Shipping and Delivery',
 		'footer.cancellation_policy': 'Cancellation Policy',
-		'footer.payments': 'Payment Methods'
+		'footer.payments': 'Payment Methods',
+		'home.reasons_title': 'The Reasons of Choosing Us',
+		'home.reasons.meat_title': 'Meat As Numbers #1',
+		'home.reasons.meat_description': 'The Most Important Thing In A Carnivore’s Life, Next To His Family, Is Meat. It’s Exactly What He Needs For A Supple Digestive Process.',
+		'home.reasons.local_title': 'Local Productions',
+		'home.reasons.local_description': 'Our Products Are Locally Produced In Our Own Factory In Veldhoven. Full Of Virtuous Ingredients. That’s Something To Be Truly Proud Of!',
+		'home.reasons.flavour_title': 'Better Flavour For Pets',
+		'home.reasons.flavour_description': 'Thanks To 50 Years Of Knowledge And Craft, We Know Exactly What Makes Your Dog Truly Happy.',
+		'home.reasons.organic_title': 'Organic Products',
+		'home.reasons.organic_description': 'We Make Sure Our Sourcing Of Raw Materials Is Organic.'
 	},
 	de: {
 		'navbar.home': 'Home',
-		'navbar.products': 'Produkte',
+		'navbar.products': 'Shop',
 		'navbar.shopping_cart': 'Warenkorb',
+		'navbar.about': 'Über uns',
 		'home.bestseller_title': 'Bestseller',
 		'productdetails.description.tax': 'inkl. MwSt.',
 		'productdetails.description.delivery_time': 'Lieferzeit 5 - 8 Werktage',
@@ -100,12 +111,22 @@ export default {
 		'footer.about': 'Über uns',
 		'footer.shipping': 'Versandkosten, Zahlung und Lieferung',
 		'footer.cancellation_policy': 'Widerrufsbelehrung',
-		'footer.payments': 'Bezahlarten'
+		'footer.payments': 'Bezahlarten',
+		'home.reasons_title': 'Die Gründe, uns zu wählen',
+		'home.reasons.meat_title': 'Fleisch als Nummer #1',
+		'home.reasons.meat_description': 'Das Wichtigste im Leben eines Fleischfressers, neben seiner Familie, ist Fleisch. Es ist genau das, was er für einen reibungslosen Verdauungsprozess braucht.',
+		'home.reasons.local_title': 'Lokale Produktionen',
+		'home.reasons.local_description': 'Unsere Produkte werden lokal in unserer eigenen Fabrik in Veldhoven hergestellt. Voller wertvoller Zutaten. Darauf können wir wirklich stolz sein!',
+		'home.reasons.flavour_title': 'Besserer Geschmack für Haustiere',
+		'home.reasons.flavour_description': 'Dank 50 Jahren Wissen und Handwerkskunst wissen wir genau, was Ihren Hund wirklich glücklich macht.',
+		'home.reasons.organic_title': 'Biologische Produkte',
+		'home.reasons.organic_description': 'Wir stellen sicher, dass unsere Rohstoffbeschaffung biologisch ist.'
 	},
 	fr: {
 		'navbar.home': 'Accueil',
-		'navbar.products': 'Produits',
+		'navbar.products': 'Boutique',
 		'navbar.shopping_cart': 'Panier',
+		'navbar.about': 'À propos de nous',
 		'home.bestseller_title': 'Meilleures ventes',
 		'productdetails.description.tax': 'incl. TVA',
 		'productdetails.description.delivery_time': 'Livraison 5 - 8 jours ouvrables',
@@ -151,6 +172,15 @@ export default {
 		'footer.about': 'À propos de nous',
 		'footer.shipping': 'Frais de port, paiement et livraison',
 		'footer.cancellation_policy': 'Politique d\'annulation',
-		'footer.payments': 'Moyens de paiement'
+		'footer.payments': 'Moyens de paiement',
+		'home.reasons_title': 'Les raisons de nous choisir',
+		'home.reasons.meat_title': 'La viande comme numéro #1',
+		'home.reasons.meat_description': 'La chose la plus importante dans la vie d’un carnivore, à côté de sa famille, est la viande. C’est exactement ce dont il a besoin pour un processus digestif souple.',
+		'home.reasons.local_title': 'Productions locales',
+		'home.reasons.local_description': 'Nos produits sont fabriqués localement dans notre propre usine à Veldhoven. Plein d’ingrédients vertueux. C’est quelque chose dont on peut être vraiment fier !',
+		'home.reasons.flavour_title': 'Meilleur goût pour les animaux',
+		'home.reasons.flavour_description': 'Grâce à 50 ans de connaissances et de savoir-faire, nous savons exactement ce qui rend votre chien vraiment heureux.',
+		'home.reasons.organic_title': 'Produits biologiques',
+		'home.reasons.organic_description': 'Nous veillons à ce que notre approvisionnement en matières premières soit biologique.'
 	}
 };
