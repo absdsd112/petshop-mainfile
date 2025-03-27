@@ -15,7 +15,7 @@
 			<div class="text-3xl text-white">Follow Us</div>
 			<!-- Social Links Container -->
 			<div class="flex justify-center space-x-4">
-				<a href="#">
+				<a href="https://www.facebook.com/">
 					<img src="/icon-facebook.svg" alt="" class="h-8" />
 				</a>
 				<a href="#">
