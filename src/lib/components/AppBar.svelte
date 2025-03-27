@@ -20,7 +20,7 @@
 <svelte:window bind:scrollY={y} />
 <nav class="bg-blue-400 text-white w-full p-4">
 	<!-- Language Button -->
-	<div class="absolute top-0 right-1 py-2 pr-2 flex space-x-2">
+	<div class="absolute top-10 left-1 py-2 pr-2 flex space-x-2">
 		{#each locales as l}
 			<button
 				class="px-3 py-1 rounded-full border-2 {l === $locale ? 'bg-white text-black' : 'bg-black text-white'} hover:bg-gray-700 transition"
