@@ -3,9 +3,9 @@ const products = [
 		id: 1,
 		handle: 'organic-dog-food',
 		title: {
-			en: 'HIGH MEAT WILD PRAIRIE Organic Dog Food',
-			de: 'HIGH MEAT WILD PRAIRIE Bio-Hundefutter',
-			fr: 'Nourriture bio pour chiens HIGH MEAT WILD PRAIRIE'
+			en: 'HIGH MEAT WILD PRAIRIE Organic Dog Food 🐶',
+			de: 'HIGH MEAT WILD PRAIRIE Bio-Hundefutter 🐶',
+			fr: 'Nourriture bio pour chiens HIGH MEAT WILD PRAIRIE 🐶 '
 		},
 		description: {
 			en: 'Premium organic dog food made with natural ingredients.',
@@ -15,6 +15,21 @@ const products = [
 		images: ['https://www.naturedog.fr/34040-large_default/croquettes-high-meat-wild-prairie-grain-free-12kg.jpg'],
 		price: 25.0,
 		currency: '€',
+		    stock: true,
+    benefits: [
+        { icon: '🌱', text: '100% natural & organic ingredients' },
+        { icon: '🥩', text: 'High meat content for better digestion' },
+        { icon: '🐕', text: 'Perfectly suited for dogs' },
+        { icon: '🌿', text: 'Grain-free & no artificial additives' }
+    ],
+    weight: '12 kg',
+    loyaltyPoints: 25,
+    shippingInfo: '🚚 Free delivery from €49 | Secure payment',
+    callToAction: {
+        buttonText: '🛒 Add to Cart €25,00',
+        inStock: '✅ In stock',
+        quantityLabel: 'Quantity'
+    },
 		tags: ['bestseller']
 	},
 	{
