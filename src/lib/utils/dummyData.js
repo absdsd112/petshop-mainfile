@@ -143,7 +143,7 @@ const products = [
 		currency: '€',
 		tags: ['weight-control']
 	},
-		{
+	{
 		id: 9,
 		handle: 'indoor-cat-food',
 		title: {
@@ -161,7 +161,6 @@ const products = [
 		currency: '€',
 		tags: ['indoor']
 	},
-	
 	{
 		id: 10,
 		handle: 'grain-free-cat-food',
@@ -215,8 +214,7 @@ const products = [
 		price: 29.0,
 		currency: '€',
 		tags: ['hairball-control']
-	}
-	
+	},
 	{
 		id: 13,
 		handle: 'weight-control-cat-food',
