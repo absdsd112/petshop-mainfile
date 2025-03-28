@@ -12,7 +12,7 @@ const products = [
 			de: 'Premium Bio-Hundefutter aus natürlichen Zutaten.',
 			fr: 'Nourriture bio premium pour chiens, fabriquée avec des ingrédients naturels.'
 		},
-		images: ['https://hariet-et-rosie.com/cdn/shop/products/1high-meat-wild-prairie1_600x.png?v=1599912965'],
+		images: ['https://www.naturedog.fr/34040-large_default/croquettes-high-meat-wild-prairie-grain-free-12kg.jpg'],
 		price: 25.0,
 		currency: '€',
 		tags: ['bestseller']
