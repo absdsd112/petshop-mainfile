@@ -4,8 +4,8 @@ const products = [
 		handle: 'organic-dog-food',
 		title: {
 			en: 'HIGH MEAT WILD PRAIRIE Organic Dog Food',
-			de: 'Bio-Hundefutter',
-			fr: 'Nourriture bio pour chiens'
+			de: 'HIGH MEAT WILD PRAIRIE Bio-Hundefutter',
+			fr: 'Nourriture bio pour chiens HIGH MEAT WILD PRAIRIE'
 		},
 		description: {
 			en: 'Premium organic dog food made with natural ingredients.',
@@ -21,16 +21,16 @@ const products = [
 		id: 2,
 		handle: 'organic-puppy-food',
 		title: {
-			en: 'Organic Puppy Food',
-			de: 'Bio-Katzenfutter',
-			fr: 'Nourriture bio pour chiots'
+			en: 'YARRAH Organic Puppy Food',
+			de: 'YARRAH Bio-Katzenfutter',
+			fr: 'Nourriture bio pour chiots YARRAH'
 		},
 		description: {
 			en: 'Healthy organic cat food for your feline friends.',
 			de: 'Gesundes Bio-Katzenfutter für Ihre Katzenfreunde.',
 			fr: 'Nourriture bio saine pour vos amis félins.'
 		},
-		images: ['https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.zooplus.com%2Fshop%2Fdogs%2Fdry_dog_food%2Fyarrah%2F1208813&psig=AOvVaw3R54qB2WlU4MfWnmfylvzK&ust=1743237474665000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCICt-OWvrIwDFQAAAAAdAAAAABAE'],
+		images: ['https://media.zooplus.com/bilder/6/400/17147_dog_dry_yarrah_puppy_2kg_8714265000317__6.jpg'],
 		price: 20.0,
 		currency: '€',
 		tags: ['bestseller']
@@ -39,16 +39,16 @@ const products = [
 		id: 3,
 		handle: 'organic-senior-dog-food',
 		title: {
-			en: 'Organic Senior Dog Food',
-			de: 'Bio-Vogelfutter',
-			fr: 'Nourriture bio pour chiens âgés'
+			en: 'Bosch Organic Senior Dog Food',
+			de: 'Bosch Bio-Vogelfutter',
+			fr: 'Nourriture bio pour chiens âgés Bosch'
 		},
 		description: {
 			en: 'Nutritious organic bird seed for all bird species.',
 			de: 'Nahrhaftes Bio-Vogelfutter für alle Vogelarten.',
 			fr: 'Graines bio nutritives pour toutes les espèces d’oiseaux.'
 		},
-		images: ['https://www.dogchef.com/wp-content/uploads/2023/01/565A6930-1536x1024.jpg'],
+		images: ['https://media.zooplus.com/bilder/0/400/83827_pla_bosch_bio_senior_hundefutter_11_5kg_0.jpg'],
 		price: 15.0,
 		currency: '€',
 		tags: []
@@ -57,16 +57,16 @@ const products = [
 		id: 4,
 		handle: 'grain-free-dog-food',
 		title: {
-			en: 'Grain-Free Dog Food',
-			de: 'Getreidefreies Hundefutter',
-			fr: 'Nourriture sans céréales pour chiens'
+			en: 'Nature Recipe Grain-Free Dog Food',
+			de: 'Nature Recipe Getreidefreies Hundefutter',
+			fr: 'Nature Recipe Nourriture sans céréales pour chiens'
 		},
 		description: {
 			en: 'Delicious grain-free dog food for sensitive stomachs.',
 			de: 'Leckeres getreidefreies Hundefutter für empfindliche Mägen.',
 			fr: 'Délicieuse nourriture sans céréales pour chiens aux estomacs sensibles.'
 		},
-		images: ['https://www.dogchef.com/wp-content/uploads/2023/01/565A6930-1536x1024.jpg'],
+		images: ['https://i5.walmartimages.com/seo/Nature-s-Recipe-Grain-Free-Chicken-Sweet-Potato-Pumpkin-Recipe-Dry-Dog-Food-24-lb-Bag_9701a2d5-aa30-491e-a11f-d95d481a0e84.3144d8ac0f4af002675a9eadb79e4d84.jpeg'],
 		price: 30.0,
 		currency: '€',
 		tags: ['grain-free']
@@ -75,16 +75,16 @@ const products = [
 		id: 5,
 		handle: 'high-protein-dog-food',
 		title: {
-			en: 'High-Protein Dog Food',
-			de: 'Proteinreiches Hundefutter',
-			fr: 'Nourriture riche en protéines pour chiens'
+			en: 'Only natural pet High-Protein Dog Food',
+			de: 'Only natural pet Proteinreiches Hundefutter',
+			fr: 'Only natural pet Nourriture riche en protéines pour chiens'
 		},
 		description: {
 			en: 'High-protein dog food for active and energetic dogs.',
 			de: 'Proteinreiches Hundefutter für aktive und energiegeladene Hunde.',
 			fr: 'Nourriture riche en protéines pour chiens actifs et énergiques.'
 		},
-		images: ['https://www.dogchef.com/wp-content/uploads/2023/01/565A6930-1536x1024.jpg'],
+		images: ['https://s7d2.scene7.com/is/image/PetSmart/5330284'],
 		price: 35.0,
 		currency: '€',
 		tags: ['high-protein']
