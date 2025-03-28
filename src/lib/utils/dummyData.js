@@ -143,24 +143,25 @@ const products = [
 		currency: '€',
 		tags: ['weight-control']
 	},
-	{
+		{
 		id: 9,
-		handle: 'organic-kitten-food',
+		handle: 'indoor-cat-food',
 		title: {
-			en: 'Organix Organic Kitten Food',
-			de: 'Organix Bio-Kittenfutter',
-			fr: 'Nourriture bio pour chatons Organix'
+			en: 'Nutro Indoor Cat Food',
+			de: 'Nutro Katzenfutter für Wohnungskatzen',
+			fr: 'Nourriture pour chats d’intérieur Nutro'
 		},
 		description: {
-			en: 'Premium organic food for growing kittens.',
-			de: 'Premium Bio-Futter für wachsende Kätzchen.',
-			fr: 'Nourriture bio premium pour chatons en croissance.'
+			en: 'Specially designed for indoor cats.',
+			de: 'Speziell für Wohnungskatzen entwickelt.',
+			fr: 'Conçu spécialement pour les chats d’intérieur.'
 		},
-		images: ['https://m.media-amazon.com/images/I/81imFSI3WSL._AC_UF1000,1000_QL80_.jpg'],
-		price: 22.0,
+		images: ['https://www.nutro.com/cdn-cgi/image/width=600,height=600,f=auto,quality=90/sites/g/files/fnmzdf2471/files/migrate-product-files/images/joos142vpztg66ev14c6.png'],
+		price: 24.0,
 		currency: '€',
-		tags: ['organic']
+		tags: ['indoor']
 	},
+	
 	{
 		id: 10,
 		handle: 'grain-free-cat-food',
@@ -199,22 +200,23 @@ const products = [
 	},
 	{
 		id: 12,
-		handle: 'senior-cat-health',
+		handle: 'hairball-control-cat-food',
 		title: {
-			en: 'IAMS Senior Cat Health Food',
-			de: 'IAMS Senioren-Katzenfutter',
-			fr: 'Nourriture santé pour chats âgés IAMS'
+			en: 'Purrfect Bistro Hairball Control Cat Food',
+			de: 'Purrfect Bistro Haarballenkontroll-Katzenfutter',
+			fr: 'Nourriture pour chats anti-boules de poils Purrfect Bistro'
 		},
 		description: {
-			en: 'Specially formulated food for senior cats.',
-			de: 'Speziell formuliertes Futter für ältere Katzen.',
-			fr: 'Nourriture spécialement formulée pour chats âgés.'
+			en: 'Helps reduce hairballs in cats.',
+			de: 'Hilft, Haarballen bei Katzen zu reduzieren.',
+			fr: 'Aide à réduire les boules de poils chez les chats.'
 		},
-		images: ['https://www.petsense.com/cdn/shop/products/38399-1452192221_c09c48c6-4ae4-4312-b0f2-c34da7c61252.jpg?v=1739292384'],
-		price: 28.0,
+		images: ['https://cdn11.bigcommerce.com/s-xfu1s3ki5p/images/stencil/1280x1280/products/10945/1398/134274152-1__10136.1631551764.jpg?c=1'],
+		price: 29.0,
 		currency: '€',
-		tags: ['senior']
-	},
+		tags: ['hairball-control']
+	}
+	
 	{
 		id: 13,
 		handle: 'weight-control-cat-food',
@@ -233,25 +235,25 @@ const products = [
 		currency: '€',
 		tags: ['weight-control']
 	},
-	{
+        {
 		id: 14,
-		handle: 'indoor-cat-food',
+		handle: 'organic-kitten-food',
 		title: {
-			en: 'Nutro Indoor Cat Food',
-			de: 'Nutro Katzenfutter für Wohnungskatzen',
-			fr: 'Nourriture pour chats d’intérieur Nutro'
+			en: 'Organix Organic Kitten Food',
+			de: 'Organix Bio-Kittenfutter',
+			fr: 'Nourriture bio pour chatons Organix'
 		},
 		description: {
-			en: 'Specially designed for indoor cats.',
-			de: 'Speziell für Wohnungskatzen entwickelt.',
-			fr: 'Conçu spécialement pour les chats d’intérieur.'
+			en: 'Premium organic food for growing kittens.',
+			de: 'Premium Bio-Futter für wachsende Kätzchen.',
+			fr: 'Nourriture bio premium pour chatons en croissance.'
 		},
-		images: ['https://www.nutro.com/cdn-cgi/image/width=600,height=600,f=auto,quality=90/sites/g/files/fnmzdf2471/files/migrate-product-files/images/joos142vpztg66ev14c6.png'],
-		price: 24.0,
+		images: ['https://m.media-amazon.com/images/I/81imFSI3WSL._AC_UF1000,1000_QL80_.jpg'],
+		price: 22.0,
 		currency: '€',
-		tags: ['indoor']
+		tags: ['organic']
 	},
-	{
+{
 		id: 15,
 		handle: 'kitten-starter-kit',
 		title: {
@@ -269,24 +271,25 @@ const products = [
 		currency: '€',
 		tags: ['starter-kit']
 	},
-	{
+        {
 		id: 16,
-		handle: 'hairball-control-cat-food',
+		handle: 'senior-cat-health',
 		title: {
-			en: 'Purrfect Bistro Hairball Control Cat Food',
-			de: 'Purrfect Bistro Haarballenkontroll-Katzenfutter',
-			fr: 'Nourriture pour chats anti-boules de poils Purrfect Bistro'
+			en: 'IAMS Senior Cat Health Food',
+			de: 'IAMS Senioren-Katzenfutter',
+			fr: 'Nourriture santé pour chats âgés IAMS'
 		},
 		description: {
-			en: 'Helps reduce hairballs in cats.',
-			de: 'Hilft, Haarballen bei Katzen zu reduzieren.',
-			fr: 'Aide à réduire les boules de poils chez les chats.'
+			en: 'Specially formulated food for senior cats.',
+			de: 'Speziell formuliertes Futter für ältere Katzen.',
+			fr: 'Nourriture spécialement formulée pour chats âgés.'
 		},
-		images: ['https://cdn11.bigcommerce.com/s-xfu1s3ki5p/images/stencil/1280x1280/products/10945/1398/134274152-1__10136.1631551764.jpg?c=1'],
-		price: 29.0,
+		images: ['https://www.petsense.com/cdn/shop/products/38399-1452192221_c09c48c6-4ae4-4312-b0f2-c34da7c61252.jpg?v=1739292384'],
+		price: 28.0,
 		currency: '€',
-		tags: ['hairball-control']
-	}
+		tags: ['senior']
+	},
+	
 ];
 
 export default products;
