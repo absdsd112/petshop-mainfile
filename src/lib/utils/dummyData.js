@@ -156,7 +156,7 @@ const products = [
 			de: 'Premium Bio-Futter für wachsende Kätzchen.',
 			fr: 'Nourriture bio premium pour chatons en croissance.'
 		},
-		images: ['https://image.chewy.com/is/image/catalog/146478_MAIN._AC_SL600_V1632784354_.jpg'],
+		images: ['https://m.media-amazon.com/images/I/81imFSI3WSL._AC_UF1000,1000_QL80_.jpg'],
 		price: 22.0,
 		currency: '€',
 		tags: ['organic']
@@ -210,7 +210,7 @@ const products = [
 			de: 'Speziell formuliertes Futter für ältere Katzen.',
 			fr: 'Nourriture spécialement formulée pour chats âgés.'
 		},
-		images: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBPnWfPBQAdNTKXAvpaVTgn5qoJuvxZJ2H1Q&s'],
+		images: ['https://www.petsense.com/cdn/shop/products/38399-1452192221_c09c48c6-4ae4-4312-b0f2-c34da7c61252.jpg?v=1739292384'],
 		price: 28.0,
 		currency: '€',
 		tags: ['senior']
