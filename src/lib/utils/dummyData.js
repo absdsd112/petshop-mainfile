@@ -246,7 +246,7 @@ const products = [
 			de: 'Speziell für Wohnungskatzen entwickelt.',
 			fr: 'Conçu spécialement pour les chats d’intérieur.'
 		},
-		images: ['https://m.media-amazon.com/images/I/71BZaq7GJcL._AC_UF1000,1000_QL80_.jpg'],
+		images: ['https://www.nutro.com/cdn-cgi/image/width=600,height=600,f=auto,quality=90/sites/g/files/fnmzdf2471/files/migrate-product-files/images/joos142vpztg66ev14c6.png'],
 		price: 24.0,
 		currency: '€',
 		tags: ['indoor']
