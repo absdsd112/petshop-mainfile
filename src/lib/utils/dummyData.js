@@ -16,12 +16,6 @@ const products = [
 		price: 25.0,
 		currency: '€',
 		    stock: true,
-    benefits: [
-        { icon: '🌱', text: '100% natural & organic ingredients' },
-        { icon: '🥩', text: 'High meat content for better digestion' },
-        { icon: '🐕', text: 'Perfectly suited for dogs' },
-        { icon: '🌿', text: 'Grain-free & no artificial additives' }
-    ],
     weight: '12 kg',
     loyaltyPoints: 25,
     shippingInfo: '🚚 Free delivery from €49 | Secure payment',
