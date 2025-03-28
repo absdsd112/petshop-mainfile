@@ -102,7 +102,7 @@ const products = [
 			de: 'Ein komplettes Starterpaket für Ihren neuen Welpen.',
 			fr: 'Un kit de démarrage complet pour votre nouveau chiot.'
 		},
-		images: ['https://www.dogchef.com/wp-content/uploads/2023/01/565A6930-1536x1024.jpg'],
+		images: ['https://cdn.petsathome.com/public/images/products/900_36948_08.jpg'],
 		price: 50.0,
 		currency: '€',
 		tags: ['starter-kit']
