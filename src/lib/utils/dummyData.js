@@ -183,16 +183,16 @@ const products = [
 		id: 11,
 		handle: 'high-protein-cat-food',
 		title: {
-			en: 'High-Protein Cat Food',
-			de: 'Proteinreiches Katzenfutter',
-			fr: 'Nourriture riche en protéines pour chats'
+			en: 'Scrumbles High-Protein Cat Food',
+			de: 'Scrumbles Proteinreiches Katzenfutter',
+			fr: 'Nourriture riche en protéines pour chats Scrumbles'
 		},
 		description: {
 			en: 'High-protein food for active and energetic cats.',
 			de: 'Proteinreiches Futter für aktive und energiegeladene Katzen.',
 			fr: 'Nourriture riche en protéines pour chats actifs et énergiques.'
 		},
-		images: ['https://www.mamavation.com/wp-content/uploads/2022/11/best-natural-organic-cat-food-brands.jpg.webp'],
+		images: ['https://scrumbles.co.uk/cdn/shop/files/chicken-dry-cat-fooddry-cat-foodscrumbles-natural-pet-foodcac10-931741.jpg?v=1720002077&width=500'],
 		price: 30.0,
 		currency: '€',
 		tags: ['high-protein']
@@ -201,16 +201,16 @@ const products = [
 		id: 12,
 		handle: 'senior-cat-health',
 		title: {
-			en: 'Senior Cat Health Food',
-			de: 'Senioren-Katzenfutter',
-			fr: 'Nourriture santé pour chats âgés'
+			en: 'IAMS Senior Cat Health Food',
+			de: 'IAMS Senioren-Katzenfutter',
+			fr: 'Nourriture santé pour chats âgés IAMS'
 		},
 		description: {
 			en: 'Specially formulated food for senior cats.',
 			de: 'Speziell formuliertes Futter für ältere Katzen.',
 			fr: 'Nourriture spécialement formulée pour chats âgés.'
 		},
-		images: ['https://www.mamavation.com/wp-content/uploads/2022/11/best-natural-organic-cat-food-brands.jpg.webp'],
+		images: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBPnWfPBQAdNTKXAvpaVTgn5qoJuvxZJ2H1Q&s'],
 		price: 28.0,
 		currency: '€',
 		tags: ['senior']
@@ -219,16 +219,16 @@ const products = [
 		id: 13,
 		handle: 'weight-control-cat-food',
 		title: {
-			en: 'Weight Control Cat Food',
-			de: 'Gewichtskontroll-Katzenfutter',
-			fr: 'Nourriture pour chats pour le contrôle du poids'
+			en: 'Optimeal Weight Control Cat Food',
+			de: 'Optimeal Gewichtskontroll-Katzenfutter',
+			fr: 'Nourriture pour chats pour le contrôle du poids Optimeal'
 		},
 		description: {
 			en: 'Helps maintain a healthy weight for your cat.',
 			de: 'Hilft, ein gesundes Gewicht für Ihre Katze zu halten.',
 			fr: 'Aide à maintenir un poids santé pour votre chat.'
 		},
-		images: ['https://www.mamavation.com/wp-content/uploads/2022/11/best-natural-organic-cat-food-brands.jpg.webp'],
+		images: ['https://m.media-amazon.com/images/I/81cjeJFWxUL.jpg'],
 		price: 25.0,
 		currency: '€',
 		tags: ['weight-control']
@@ -237,16 +237,16 @@ const products = [
 		id: 14,
 		handle: 'indoor-cat-food',
 		title: {
-			en: 'Indoor Cat Food',
-			de: 'Katzenfutter für Wohnungskatzen',
-			fr: 'Nourriture pour chats d’intérieur'
+			en: 'Nutro Indoor Cat Food',
+			de: 'Nutro Katzenfutter für Wohnungskatzen',
+			fr: 'Nourriture pour chats d’intérieur Nutro'
 		},
 		description: {
 			en: 'Specially designed for indoor cats.',
 			de: 'Speziell für Wohnungskatzen entwickelt.',
 			fr: 'Conçu spécialement pour les chats d’intérieur.'
 		},
-		images: ['https://www.mamavation.com/wp-content/uploads/2022/11/best-natural-organic-cat-food-brands.jpg.webp'],
+		images: ['https://m.media-amazon.com/images/I/71BZaq7GJcL._AC_UF1000,1000_QL80_.jpg'],
 		price: 24.0,
 		currency: '€',
 		tags: ['indoor']
@@ -255,16 +255,16 @@ const products = [
 		id: 15,
 		handle: 'kitten-starter-kit',
 		title: {
-			en: 'Kitten Starter Kit',
-			de: 'Kitten-Starterpaket',
-			fr: 'Kit de démarrage pour chatons'
+			en: 'Nature range Kitten Starter Kit',
+			de: 'Nature range Kitten-Starterpaket',
+			fr: 'Kit de démarrage pour chatons Nature range'
 		},
 		description: {
 			en: 'A complete starter kit for your new kitten.',
 			de: 'Ein komplettes Starterpaket für Ihr neues Kätzchen.',
 			fr: 'Un kit de démarrage complet pour votre nouveau chaton.'
 		},
-		images: ['https://www.mamavation.com/wp-content/uploads/2022/11/best-natural-organic-cat-food-brands.jpg.webp'],
+		images: ['https://www.shop.thepethealthclub.co.uk/cdn/shop/products/natures-range-kitten-chk.png?v=1654690217'],
 		price: 45.0,
 		currency: '€',
 		tags: ['starter-kit']
@@ -273,16 +273,16 @@ const products = [
 		id: 16,
 		handle: 'hairball-control-cat-food',
 		title: {
-			en: 'Hairball Control Cat Food',
-			de: 'Haarballenkontroll-Katzenfutter',
-			fr: 'Nourriture pour chats anti-boules de poils'
+			en: 'Purrfect Bistro Hairball Control Cat Food',
+			de: 'Purrfect Bistro Haarballenkontroll-Katzenfutter',
+			fr: 'Nourriture pour chats anti-boules de poils Purrfect Bistro'
 		},
 		description: {
 			en: 'Helps reduce hairballs in cats.',
 			de: 'Hilft, Haarballen bei Katzen zu reduzieren.',
 			fr: 'Aide à réduire les boules de poils chez les chats.'
 		},
-		images: ['https://www.mamavation.com/wp-content/uploads/2022/11/best-natural-organic-cat-food-brands.jpg.webp'],
+		images: ['https://cdn11.bigcommerce.com/s-xfu1s3ki5p/images/stencil/1280x1280/products/10945/1398/134274152-1__10136.1631551764.jpg?c=1'],
 		price: 29.0,
 		currency: '€',
 		tags: ['hairball-control']
