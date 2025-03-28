@@ -30,7 +30,7 @@ const products = [
 			de: 'Gesundes Bio-Katzenfutter für Ihre Katzenfreunde.',
 			fr: 'Nourriture bio saine pour vos amis félins.'
 		},
-		images: ['https://www.dogchef.com/wp-content/uploads/2023/01/565A6930-1536x1024.jpg'],
+		images: ['https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.zooplus.com%2Fshop%2Fdogs%2Fdry_dog_food%2Fyarrah%2F1208813&psig=AOvVaw3R54qB2WlU4MfWnmfylvzK&ust=1743237474665000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCICt-OWvrIwDFQAAAAAdAAAAABAE'],
 		price: 20.0,
 		currency: '€',
 		tags: ['bestseller']
