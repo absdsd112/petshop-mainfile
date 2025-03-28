@@ -3,7 +3,7 @@ const products = [
 		id: 1,
 		handle: 'organic-dog-food',
 		title: {
-			en: 'Organic Dog Food',
+			en: 'HIGH MEAT WILD PRAIRIE Organic Dog Food',
 			de: 'Bio-Hundefutter',
 			fr: 'Nourriture bio pour chiens'
 		},
@@ -12,7 +12,7 @@ const products = [
 			de: 'Premium Bio-Hundefutter aus natürlichen Zutaten.',
 			fr: 'Nourriture bio premium pour chiens, fabriquée avec des ingrédients naturels.'
 		},
-		images: ['https://www.dogchef.com/wp-content/uploads/2023/01/565A6930-1536x1024.jpg'],
+		images: ['https://hariet-et-rosie.com/cdn/shop/products/1high-meat-wild-prairie1_600x.png?v=1599912965'],
 		price: 25.0,
 		currency: '€',
 		tags: ['bestseller']
