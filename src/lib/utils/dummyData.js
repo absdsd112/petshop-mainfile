@@ -8,22 +8,27 @@ const products = [
 			fr: 'Nourriture bio pour chiens HIGH MEAT WILD PRAIRIE 🐶 '
 		},
 		description: {
-			en: 'Premium organic dog food made with natural ingredients.',
+			en: 'Premium organic dog food made with natural ingredients.
+			        🚚 Free delivery from €49 | Secure payment
+				✅ Item is in stock
+				🛒 Add to cart — €25.00
+				
+				🌱 Natural and organic recipe
+				🏆 Best-selling premium kibble
+				🇪🇺 Made in Europe
+			
+				Why choose HIGH MEAT WILD PRAIRIE? HIGH MEAT WILD PRAIRIE kibble is specially designed to provide your dog with a healthy and balanced diet, with high-quality organic ingredients. Their meat-rich composition guarantees an irresistible taste and optimal protein intake.
+🐾 100% natural and organic ingredients
+🥩 Rich in meat for better digestion
+🐕 Perfectly adapted to the nutritional needs of dogs
+🌿 Grain-free, no artificial additives',
+	
 			de: 'Premium Bio-Hundefutter aus natürlichen Zutaten.',
 			fr: 'Nourriture bio premium pour chiens, fabriquée avec des ingrédients naturels.'
 		},
 		images: ['https://www.naturedog.fr/34040-large_default/croquettes-high-meat-wild-prairie-grain-free-12kg.jpg'],
 		price: 25.0,
 		currency: '€',
-		    stock: true,
-    weight: '12 kg',
-    loyaltyPoints: 25,
-    shippingInfo: '🚚 Free delivery from €49 | Secure payment',
-    callToAction: {
-        buttonText: '🛒 Add to Cart €25,00',
-        inStock: '✅ In stock',
-        quantityLabel: 'Quantity'
-    },
 		tags: ['bestseller']
 	},
 	{
