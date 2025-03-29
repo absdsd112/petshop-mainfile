@@ -4,7 +4,6 @@ import ProductList from './components/ProductList';
 function App() {
 	return (
 		<div className="App">
-			{/* Render the ProductList component */}
 			<ProductList />
 		</div>
 	);
