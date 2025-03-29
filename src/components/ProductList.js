@@ -1,6 +1,6 @@
 import React from 'react';
-import ProductCard from './ProductCard';
-import products from '../lib/utils/dummyData';
+import ProductCard from 'src/components/ProductCard.js'; 
+import products from 'lib/utils/dummyData'; 
 
 function ProductList() {
 	console.log('Products array:', products); // Debug: Log the products array to verify it's being imported correctly
