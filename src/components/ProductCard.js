@@ -1,6 +1,8 @@
 import './ProductCard.css'; // Import the CSS file
 
 function ProductCard({ product }) {
+	console.log('Product data:', product); // Debug: Log the product data to verify it's being passed correctly
+
 	return (
 		<div className="product-card">
 			<h2>{product.title.en}</h2>
