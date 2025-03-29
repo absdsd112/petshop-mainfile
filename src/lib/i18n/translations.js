@@ -4,6 +4,7 @@ export default {
 		'navbar.products': 'Shop',
 		'navbar.shopping_cart': 'Shopping Cart',
 		'navbar.about': 'About',
+		'navbar.blog': 'Blog',
 		'home.bestseller_title': 'Bestseller',
 		'productdetails.description.tax': 'incl. tax',
 		'productdetails.description.delivery_time': 'Delivery 5 - 8 Business Days',
