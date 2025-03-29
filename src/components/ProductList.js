@@ -3,7 +3,8 @@ import ProductCard from './ProductCard';
 import products from '../lib/utils/dummyData';
 
 function ProductList() {
-	console.log(products); // Log the products array to verify the data
+	console.log('Products array:', products); // Debug: Log the products array to verify it's being imported correctly
+
 	return (
 		<div className="product-list">
 			{products.map((product) => (
