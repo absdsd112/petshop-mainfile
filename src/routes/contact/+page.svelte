@@ -1,3 +1,10 @@
+<svelte:head>
+  <title>Contact Us - PetShop</title>
+  <meta name="description" content="Get in touch with PetShop for inquiries, support, or feedback. We're here to help you and your pets." />
+  <meta name="keywords" content="Contact PetShop, pet shop support, pet shop inquiries, pet shop feedback" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</svelte:head>
+
 <script>
     /** @type {import('./$types').PageData} */
     export let data;

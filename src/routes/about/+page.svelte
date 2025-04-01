@@ -11,7 +11,12 @@
 		}, 5000); // Clear notification after 5 seconds
 	}
 </script>
-
+<svelte:head>
+  <title>About Us - PetShop</title>
+  <meta name="description" content="Learn more about PetShop, our history, values, and how we care for your pets with love and dedication." />
+  <meta name="keywords" content="About PetShop, pet care, pet shop values, pet shop history" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</svelte:head>
 <section class="about-content p-6 space-y-10" style="background-color: beige;">
 	<!-- Our History Section -->
 	<div class="bg-[#A2D5C6] p-6 rounded-lg">

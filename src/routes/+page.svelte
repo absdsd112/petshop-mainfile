@@ -1,3 +1,10 @@
+<svelte:head>
+  <title>Home - PetShop</title>
+  <meta name="description" content="Welcome to PetShop, your one-stop shop for all your pet care needs. Explore our wide range of products and services." />
+  <meta name="keywords" content="PetShop, pet care, pet products, pet food, pet toys" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</svelte:head>
+
 <script>
 	import ProductList from '$lib/components/ProductList/ProductList.svelte';
 	import { t } from '$lib/i18n/i18n.js';

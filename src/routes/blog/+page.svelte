@@ -1,3 +1,10 @@
+<svelte:head>
+  <title>Blog - PetShop</title>
+  <meta name="description" content="Read the latest articles, tips, and news about pet care, pet products, and more on the PetShop blog." />
+  <meta name="keywords" content="PetShop blog, pet care tips, pet products, pet news, pet articles" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</svelte:head>
+
 <script>
 	import { t, locale } from '$lib/i18n/i18n.js';
 
@@ -110,4 +117,4 @@
 			</div>
 		{/if}
 	</div>
-</section> 
+</section>
