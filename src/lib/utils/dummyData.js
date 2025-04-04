@@ -8,9 +8,21 @@ const products = [
 			fr: 'Nourriture bio pour chiens HIGH MEAT WILD PRAIRIE'
 		},
 		description: {
-			en: 'Premium organic dog food made with natural ingredients.',
-			de: 'Premium Bio-Hundefutter aus natürlichen Zutaten.',
-			fr: 'Nourriture bio premium pour chiens, fabriquée avec des ingrédients naturels.'
+			en: `Premium organic dog food made with natural ingredients.
+				Weight: 12 kg
+				Loyalty Points: 25
+				Shipping Info: 🚚 Free delivery from €49 | Secure payment
+				Call to Action: 🛒 Add to Cart €25,00 | ✅ In stock | Quantity`,
+			de: `Premium Bio-Hundefutter aus natürlichen Zutaten.
+				Gewicht: 12 kg
+				Treuepunkte: 25
+				Versandinfo: 🚚 Kostenlose Lieferung ab 49 € | Sichere Zahlung
+				Aktion: 🛒 In den Warenkorb €25,00 | ✅ Auf Lager | Menge`,
+			fr: `Nourriture bio premium pour chiens, fabriquée avec des ingrédients naturels.
+				Poids: 12 kg
+				Points de fidélité: 25
+				Infos sur la livraison: 🚚 Livraison gratuite à partir de 49 € | Paiement sécurisé
+				Appel à l'action: 🛒 Ajouter au panier €25,00 | ✅ En stock | Quantité`
 		},
 		images: ['https://www.naturedog.fr/34040-large_default/croquettes-high-meat-wild-prairie-grain-free-12kg.jpg'],
 		price: 25.0,
@@ -21,15 +33,7 @@ const products = [
 			{ icon: '🥩', text: 'High meat content for better digestion' },
 			{ icon: '🐕', text: 'Perfectly suited for dogs' },
 			{ icon: '🌿', text: 'Grain-free & no artificial additives' }
-		],
-		weight: '12 kg',
-		loyaltyPoints: 25,
-		shippingInfo: '🚚 Free delivery from €49 | Secure payment',
-		callToAction: {
-			buttonText: '🛒 Add to Cart €25,00',
-			inStock: '✅ In stock',
-			quantityLabel: 'Quantity'
-		}
+		]
 	},
 	{
 		id: 2,
@@ -40,9 +44,21 @@ const products = [
 			fr: 'Nourriture bio pour chiots YARRAH'
 		},
 		description: {
-			en: 'Premium organic puppy food made with natural ingredients.',
-			de: 'Premium Bio-Hundefutter aus natürlichen Zutaten.',
-			fr: 'Nourriture bio premium pour chiots, fabriquée avec des ingrédients naturels.'
+			en: `Premium organic puppy food made with natural ingredients.
+				Weight: 12 kg
+				Loyalty Points: 20
+				Shipping Info: 🚚 Free delivery from €49 | Secure payment
+				Call to Action: 🛒 Add to Cart €20,00 | ✅ In stock | Quantity`,
+			de: `Premium Bio-Hundefutter aus natürlichen Zutaten.
+				Gewicht: 12 kg
+				Treuepunkte: 20
+				Versandinfo: 🚚 Kostenlose Lieferung ab 49 € | Sichere Zahlung
+				Aktion: 🛒 In den Warenkorb €20,00 | ✅ Auf Lager | Menge`,
+			fr: `Nourriture bio premium pour chiots, fabriquée avec des ingrédients naturels.
+				Poids: 12 kg
+				Points de fidélité: 20
+				Infos sur la livraison: 🚚 Livraison gratuite à partir de 49 € | Paiement sécurisé
+				Appel à l'action: 🛒 Ajouter au panier €20,00 | ✅ En stock | Quantité`
 		},
 		images: ['https://media.zooplus.com/bilder/6/400/17147_dog_dry_yarrah_puppy_2kg_8714265000317__6.jpg'],
 		price: 20.0,
@@ -53,15 +69,7 @@ const products = [
 			{ icon: '🥩', text: 'High meat content for better digestion' },
 			{ icon: '🐕', text: 'Perfectly suited for puppies' },
 			{ icon: '🌿', text: 'Grain-free & no artificial additives' }
-		],
-		weight: '12 kg',
-		loyaltyPoints: 20,
-		shippingInfo: '🚚 Free delivery from €49 | Secure payment',
-		callToAction: {
-			buttonText: '🛒 Add to Cart €20,00',
-			inStock: '✅ In stock',
-			quantityLabel: 'Quantity'
-		}
+		]
 	},
 	{
 		id: 3,
@@ -72,9 +80,21 @@ const products = [
 			fr: 'Nourriture bio pour chiens âgés Bosch'
 		},
 		description: {
-			en: 'Premium organic senior dog food made with natural ingredients.',
-			de: 'Premium Bio-Hundefutter für Senioren aus natürlichen Zutaten.',
-			fr: 'Nourriture bio premium pour chiens âgés, fabriquée avec des ingrédients naturels.'
+			en: `Premium organic senior dog food made with natural ingredients.
+				Weight: 11.5 kg
+				Loyalty Points: 15
+				Shipping Info: 🚚 Free delivery from €49 | Secure payment
+				Call to Action: 🛒 Add to Cart €15,00 | ✅ In stock | Quantity`,
+			de: `Premium Bio-Hundefutter für Senioren aus natürlichen Zutaten.
+				Gewicht: 11.5 kg
+				Treuepunkte: 15
+				Versandinfo: 🚚 Kostenlose Lieferung ab 49 € | Sichere Zahlung
+				Aktion: 🛒 In den Warenkorb €15,00 | ✅ Auf Lager | Menge`,
+			fr: `Nourriture bio premium pour chiens âgés, fabriquée avec des ingrédients naturels.
+				Poids: 11.5 kg
+				Points de fidélité: 15
+				Infos sur la livraison: 🚚 Livraison gratuite à partir de 49 € | Paiement sécurisé
+				Appel à l'action: 🛒 Ajouter au panier €15,00 | ✅ En stock | Quantité`
 		},
 		images: ['https://media.zooplus.com/bilder/0/400/83827_pla_bosch_bio_senior_hundefutter_11_5kg_0.jpg'],
 		price: 15.0,
@@ -85,15 +105,7 @@ const products = [
 			{ icon: '🥩', text: 'High meat content for better digestion' },
 			{ icon: '🐕', text: 'Perfectly suited for senior dogs' },
 			{ icon: '🌿', text: 'Grain-free & no artificial additives' }
-		],
-		weight: '11.5 kg',
-		loyaltyPoints: 15,
-		shippingInfo: '🚚 Free delivery from €49 | Secure payment',
-		callToAction: {
-			buttonText: '🛒 Add to Cart €15,00',
-			inStock: '✅ In stock',
-			quantityLabel: 'Quantity'
-		}
+		]
 	},
 	{
 		id: 4,
@@ -104,9 +116,21 @@ const products = [
 			fr: 'Nature Recipe Nourriture sans céréales pour chiens'
 		},
 		description: {
-			en: 'Delicious grain-free dog food for sensitive stomachs.',
-			de: 'Leckeres getreidefreies Hundefutter für empfindliche Mägen.',
-			fr: 'Délicieuse nourriture sans céréales pour chiens aux estomacs sensibles.'
+			en: `Delicious grain-free dog food for sensitive stomachs.
+				Weight: 12 kg
+				Loyalty Points: 30
+				Shipping Info: 🚚 Free delivery from €49 | Secure payment
+				Call to Action: 🛒 Add to Cart €30,00 | ✅ In stock | Quantity`,
+			de: `Leckeres getreidefreies Hundefutter für empfindliche Mägen.
+				Gewicht: 12 kg
+				Treuepunkte: 30
+				Versandinfo: 🚚 Kostenlose Lieferung ab 49 € | Sichere Zahlung
+				Aktion: 🛒 In den Warenkorb €30,00 | ✅ Auf Lager | Menge`,
+			fr: `Délicieuse nourriture sans céréales pour chiens aux estomacs sensibles.
+				Poids: 12 kg
+				Points de fidélité: 30
+				Infos sur la livraison: 🚚 Livraison gratuite à partir de 49 € | Paiement sécurisé
+				Appel à l'action: 🛒 Ajouter au panier €30,00 | ✅ En stock | Quantité`
 		},
 		images: ['https://i5.walmartimages.com/seo/Nature-s-Recipe-Grain-Free-Chicken-Sweet-Potato-Pumpkin-Recipe-Dry-Dog-Food-24-lb-Bag_9701a2d5-aa30-491e-a11f-d95d481a0e84.3144d8ac0f4af002675a9eadb79e4d84.jpeg'],
 		price: 30.0,
@@ -117,400 +141,428 @@ const products = [
 			{ icon: '🥩', text: 'High meat content for better digestion' },
 			{ icon: '🐕', text: 'Perfectly suited for dogs' },
 			{ icon: '🌿', text: 'Grain-free & no artificial additives' }
-		],
-		weight: '12 kg',
-		loyaltyPoints: 30,
-		shippingInfo: '🚚 Free delivery from €49 | Secure payment',
-		callToAction: {
-			buttonText: '🛒 Add to Cart €30,00',
-			inStock: '✅ In stock',
-			quantityLabel: 'Quantity'
-		}
+		]
 	},
 	{
 		id: 5,
-		handle: 'high-protein-dog-food',
+		handle: 'premium-dog-food',
 		title: {
-			en: 'Only natural pet High-Protein Dog Food',
-			de: 'Only natural pet Proteinreiches Hundefutter',
-			fr: 'Nourriture riche en protéines pour chiens Only natural pet'
+			en: 'Premium Dog Food',
+			de: 'Premium Hundefutter',
+			fr: 'Nourriture premium pour chiens'
 		},
 		description: {
-			en: 'High-protein dog food for active and energetic dogs.',
-			de: 'Proteinreiches Hundefutter für aktive und energiegeladene Hunde.',
-			fr: 'Nourriture riche en protéines pour chiens actifs et énergiques.'
+			en: `High-quality dog food for all breeds.
+				Weight: 10 kg
+				Loyalty Points: 35
+				Shipping Info: 🚚 Free delivery from €49 | Secure payment
+				Call to Action: 🛒 Add to Cart €35,00 | ✅ In stock | Quantity`,
+			de: `Hochwertiges Hundefutter für alle Rassen.
+				Gewicht: 10 kg
+				Treuepunkte: 35
+				Versandinfo: 🚚 Kostenlose Lieferung ab 49 € | Sichere Zahlung
+				Aktion: 🛒 In den Warenkorb €35,00 | ✅ Auf Lager | Menge`,
+			fr: `Nourriture de haute qualité pour toutes les races de chiens.
+				Poids: 10 kg
+				Points de fidélité: 35
+				Infos sur la livraison: 🚚 Livraison gratuite à partir de 49 € | Paiement sécurisé
+				Appel à l'action: 🛒 Ajouter au panier €35,00 | ✅ En stock | Quantité`
 		},
-		images: ['https://s7d2.scene7.com/is/image/PetSmart/5330284'],
+		images: ['https://example.com/premium-dog-food.jpg'],
 		price: 35.0,
 		currency: '€',
-		tags: ['high-protein'],
+		tags: ['premium'],
 		benefits: [
-			{ icon: '🌱', text: '100% natural & organic ingredients' },
-			{ icon: '🥩', text: 'High meat content for better digestion' },
-			{ icon: '🐕', text: 'Perfectly suited for dogs' },
-			{ icon: '🌿', text: 'Grain-free & no artificial additives' }
-		],
-		weight: '12 kg',
-		loyaltyPoints: 35,
-		shippingInfo: '🚚 Free delivery from €49 | Secure payment',
-		callToAction: {
-			buttonText: '🛒 Add to Cart €35,00',
-			inStock: '✅ In stock',
-			quantityLabel: 'Quantity'
-		}
+			{ icon: '🌱', text: '100% natural ingredients' },
+			{ icon: '🥩', text: 'Rich in protein for strong muscles' },
+			{ icon: '🐕', text: 'Suitable for all breeds' }
+		]
 	},
 	{
 		id: 6,
-		handle: 'puppy-starter-kit',
+		handle: 'vegan-dog-food',
 		title: {
-			en: 'Harrington Puppy Starter Kit',
-			de: 'Harrington Welpen-Starterpaket',
-			fr: 'Kit de démarrage pour chiots Harrington'
+			en: 'Vegan Dog Food',
+			de: 'Veganes Hundefutter',
+			fr: 'Nourriture vegan pour chiens'
 		},
 		description: {
-			en: 'A complete starter kit for your new puppy.',
-			de: 'Ein komplettes Starterpaket für Ihren neuen Welpen.',
-			fr: 'Un kit de démarrage complet pour votre nouveau chiot.'
+			en: `Plant-based dog food for a sustainable diet.
+				Weight: 8 kg
+				Loyalty Points: 40
+				Shipping Info: 🚚 Free delivery from €49 | Secure payment
+				Call to Action: 🛒 Add to Cart €40,00 | ✅ In stock | Quantity`,
+			de: `Pflanzenbasiertes Hundefutter für eine nachhaltige Ernährung.
+				Gewicht: 8 kg
+				Treuepunkte: 40
+				Versandinfo: 🚚 Kostenlose Lieferung ab 49 € | Sichere Zahlung
+				Aktion: 🛒 In den Warenkorb €40,00 | ✅ Auf Lager | Menge`,
+			fr: `Nourriture à base de plantes pour une alimentation durable.
+				Poids: 8 kg
+				Points de fidélité: 40
+				Infos sur la livraison: 🚚 Livraison gratuite à partir de 49 € | Paiement sécurisé
+				Appel à l'action: 🛒 Ajouter au panier €40,00 | ✅ En stock | Quantité`
 		},
-		images: ['https://cdn.petsathome.com/public/images/products/900_36948_08.jpg'],
-		price: 50.0,
+		images: ['https://example.com/vegan-dog-food.jpg'],
+		price: 40.0,
 		currency: '€',
-		tags: ['starter-kit'],
+		tags: ['vegan'],
 		benefits: [
-			{ icon: '🌱', text: '100% natural & organic ingredients' },
-			{ icon: '🥩', text: 'High meat content for better digestion' },
-			{ icon: '🐕', text: 'Perfectly suited for puppies' },
-			{ icon: '🌿', text: 'Grain-free & no artificial additives' }
-		],
-		weight: '12 kg',
-		loyaltyPoints: 50,
-		shippingInfo: '🚚 Free delivery from €49 | Secure payment',
-		callToAction: {
-			buttonText: '🛒 Add to Cart €50,00',
-			inStock: '✅ In stock',
-			quantityLabel: 'Quantity'
-		}
+			{ icon: '🌱', text: '100% plant-based ingredients' },
+			{ icon: '🌍', text: 'Eco-friendly and sustainable' },
+			{ icon: '🐕', text: 'Great for dogs with allergies' }
+		]
 	},
 	{
 		id: 7,
-		handle: 'senior-dog-health',
+		handle: 'hypoallergenic-dog-food',
 		title: {
-			en: 'Wellness Senior Dog Health Food',
-			de: 'Wellness Senioren-Hundefutter',
-			fr: 'Nourriture santé pour chiens âgés Wellness'
+			en: 'Hypoallergenic Dog Food',
+			de: 'Hypoallergenes Hundefutter',
+			fr: 'Nourriture hypoallergénique pour chiens'
 		},
 		description: {
-			en: 'Specially formulated food for senior dogs.',
-			de: 'Speziell formuliertes Futter für ältere Hunde.',
-			fr: 'Nourriture spécialement formulée pour chiens âgés.'
+			en: `Specially formulated for dogs with food sensitivities.
+				Weight: 9 kg
+				Loyalty Points: 45
+				Shipping Info: 🚚 Free delivery from €49 | Secure payment
+				Call to Action: 🛒 Add to Cart €45,00 | ✅ In stock | Quantity`,
+			de: `Speziell für Hunde mit Futtermittelunverträglichkeiten entwickelt.
+				Gewicht: 9 kg
+				Treuepunkte: 45
+				Versandinfo: 🚚 Kostenlose Lieferung ab 49 € | Sichere Zahlung
+				Aktion: 🛒 In den Warenkorb €45,00 | ✅ Auf Lager | Menge`,
+			fr: `Formulé spécialement pour les chiens ayant des sensibilités alimentaires.
+				Poids: 9 kg
+				Points de fidélité: 45
+				Infos sur la livraison: 🚚 Livraison gratuite à partir de 49 € | Paiement sécurisé
+				Appel à l'action: 🛒 Ajouter au panier €45,00 | ✅ En stock | Quantité`
 		},
-		images: ['https://shop.bensonspet.com/cdn/shop/files/ac4f40840547a5cfbffbc6886cc0e41c97fbdd02.jpg?v=1710955550'],
-		price: 28.0,
+		images: ['https://example.com/hypoallergenic-dog-food.jpg'],
+		price: 45.0,
 		currency: '€',
-		tags: ['senior'],
+		tags: ['hypoallergenic'],
 		benefits: [
-			{ icon: '🌱', text: '100% natural & organic ingredients' },
-			{ icon: '🥩', text: 'High meat content for better digestion' },
-			{ icon: '🐕', text: 'Perfectly suited for senior dogs' },
-			{ icon: '🌿', text: 'Grain-free & no artificial additives' }
-		],
-		weight: '12 kg',
-		loyaltyPoints: 28,
-		shippingInfo: '🚚 Free delivery from €49 | Secure payment',
-		callToAction: {
-			buttonText: '🛒 Add to Cart €28,00',
-			inStock: '✅ In stock',
-			quantityLabel: 'Quantity'
-		}
+			{ icon: '🌱', text: 'Free from common allergens' },
+			{ icon: '🥩', text: 'High-quality protein sources' },
+			{ icon: '🐕', text: 'Gentle on sensitive stomachs' }
+		]
 	},
 	{
 		id: 8,
 		handle: 'weight-control-dog-food',
 		title: {
-			en: 'Earthborn Weight Control Dog Food',
-			de: 'Earthborn Gewichtskontroll-Hundefutter',
-			fr: 'Nourriture pour chiens pour le contrôle du poids Earthborn'
+			en: 'Weight Control Dog Food',
+			de: 'Gewichtskontrolle Hundefutter',
+			fr: 'Nourriture pour chiens contrôle du poids'
 		},
 		description: {
-			en: 'Helps maintain a healthy weight for your dog.',
-			de: 'Hilft, ein gesundes Gewicht für Ihren Hund zu halten.',
-			fr: 'Aide à maintenir un poids santé pour votre chien.'
+			en: `Helps maintain a healthy weight for your dog.
+				Weight: 10 kg
+				Loyalty Points: 38
+				Shipping Info: 🚚 Free delivery from €49 | Secure payment
+				Call to Action: 🛒 Add to Cart €38,00 | ✅ In stock | Quantity`,
+			de: `Hilft, ein gesundes Gewicht Ihres Hundes zu halten.
+				Gewicht: 10 kg
+				Treuepunkte: 38
+				Versandinfo: 🚚 Kostenlose Lieferung ab 49 € | Sichere Zahlung
+				Aktion: 🛒 In den Warenkorb €38,00 | ✅ Auf Lager | Menge`,
+			fr: `Aide à maintenir un poids santé pour votre chien.
+				Poids: 10 kg
+				Points de fidélité: 38
+				Infos sur la livraison: 🚚 Livraison gratuite à partir de 49 € | Paiement sécurisé
+				Appel à l'action: 🛒 Ajouter au panier €38,00 | ✅ En stock | Quantité`
 		},
-		images: ['https://www.cheshirehorse.com/dw/image/v2/BFXN_PRD/on/demandware.static/-/Sites-master-cheshirehorse/default/dwa0256b03/images/products/054799.jpg?sw=650&sh=650'],
-		price: 27.0,
+		images: ['https://example.com/weight-control-dog-food.jpg'],
+		price: 38.0,
 		currency: '€',
 		tags: ['weight-control'],
 		benefits: [
-			{ icon: '🌱', text: '100% natural & organic ingredients' },
-			{ icon: '🥩', text: 'High meat content for better digestion' },
-			{ icon: '🐕', text: 'Perfectly suited for dogs' },
-			{ icon: '🌿', text: 'Grain-free & no artificial additives' }
-		],
-		weight: '12 kg',
-		loyaltyPoints: 27,
-		shippingInfo: '🚚 Free delivery from €49 | Secure payment',
-		callToAction: {
-			buttonText: '🛒 Add to Cart €27,00',
-			inStock: '✅ In stock',
-			quantityLabel: 'Quantity'
-		}
+			{ icon: '🌱', text: 'Low-calorie formula' },
+			{ icon: '🥩', text: 'Rich in essential nutrients' },
+			{ icon: '🐕', text: 'Supports healthy metabolism' }
+		]
 	},
 	{
 		id: 9,
-		handle: 'indoor-cat-food',
+		handle: 'puppy-growth-dog-food',
 		title: {
-			en: 'Nutro Indoor Cat Food',
-			de: 'Nutro Katzenfutter für Wohnungskatzen',
-			fr: 'Nourriture pour chats d’intérieur Nutro'
+			en: 'Puppy Growth Dog Food',
+			de: 'Welpenwachstum Hundefutter',
+			fr: 'Nourriture pour chiots croissance'
 		},
 		description: {
-			en: 'Specially designed for indoor cats.',
-			de: 'Speziell für Wohnungskatzen entwickelt.',
-			fr: 'Conçu spécialement pour les chats d’intérieur.'
+			en: `Designed to support healthy growth in puppies.
+				Weight: 12 kg
+				Loyalty Points: 50
+				Shipping Info: 🚚 Free delivery from €49 | Secure payment
+				Call to Action: 🛒 Add to Cart €50,00 | ✅ In stock | Quantity`,
+			de: `Entwickelt, um ein gesundes Wachstum bei Welpen zu unterstützen.
+				Gewicht: 12 kg
+				Treuepunkte: 50
+				Versandinfo: 🚚 Kostenlose Lieferung ab 49 € | Sichere Zahlung
+				Aktion: 🛒 In den Warenkorb €50,00 | ✅ Auf Lager | Menge`,
+			fr: `Conçu pour soutenir une croissance saine chez les chiots.
+				Poids: 12 kg
+				Points de fidélité: 50
+				Infos sur la livraison: 🚚 Livraison gratuite à partir de 49 € | Paiement sécurisé
+				Appel à l'action: 🛒 Ajouter au panier €50,00 | ✅ En stock | Quantité`
 		},
-		images: ['https://www.nutro.com/cdn-cgi/image/width=600,height=600,f=auto,quality=90/sites/g/files/fnmzdf2471/files/migrate-product-files/images/joos142vpztg66ev14c6.png'],
-		price: 24.0,
+		images: ['https://example.com/puppy-growth-dog-food.jpg'],
+		price: 50.0,
 		currency: '€',
-		tags: ['indoor'],
+		tags: ['puppy', 'growth'],
 		benefits: [
-			{ icon: '🌱', text: '100% natural & organic ingredients' },
-			{ icon: '🥩', text: 'High meat content for better digestion' },
-			{ icon: '🐕', text: 'Perfectly suited for indoor cats' },
-			{ icon: '🌿', text: 'Grain-free & no artificial additives' }
-		],
-		weight: '12 kg',
-		loyaltyPoints: 24,
-		shippingInfo: '🚚 Free delivery from €49 | Secure payment',
-		callToAction: {
-			buttonText: '🛒 Add to Cart €24,00',
-			inStock: '✅ In stock',
-			quantityLabel: 'Quantity'
-		}
+			{ icon: '🌱', text: 'Rich in vitamins and minerals' },
+			{ icon: '🥩', text: 'High protein for muscle development' },
+			{ icon: '🐕', text: 'Supports bone and joint health' }
+		]
 	},
 	{
 		id: 10,
-		handle: 'grain-free-cat-food',
+		handle: 'senior-health-dog-food',
 		title: {
-			en: 'YARRAH Grain-Free Cat Food',
-			de: 'YARRAH Getreidefreies Katzenfutter',
-			fr: 'Nourriture sans céréales pour chats YARRAH '
+			en: 'Senior Health Dog Food',
+			de: 'Senioren Gesundheit Hundefutter',
+			fr: 'Nourriture pour chiens âgés santé'
 		},
 		description: {
-			en: 'Delicious grain-free food for cats with sensitive stomachs.',
-			de: 'Leckeres getreidefreies Futter für Katzen mit empfindlichem Magen.',
-			fr: 'Délicieuse nourriture sans céréales pour chats aux estomacs sensibles.'
+			en: `Specially designed for senior dogs to support joint health.
+				Weight: 11 kg
+				Loyalty Points: 42
+				Shipping Info: 🚚 Free delivery from €49 | Secure payment
+				Call to Action: 🛒 Add to Cart €42,00 | ✅ In stock | Quantity`,
+			de: `Speziell für ältere Hunde entwickelt, um die Gelenkgesundheit zu unterstützen.
+				Gewicht: 11 kg
+				Treuepunkte: 42
+				Versandinfo: 🚚 Kostenlose Lieferung ab 49 € | Sichere Zahlung
+				Aktion: 🛒 In den Warenkorb €42,00 | ✅ Auf Lager | Menge`,
+			fr: `Conçu spécialement pour les chiens âgés pour soutenir la santé des articulations.
+				Poids: 11 kg
+				Points de fidélité: 42
+				Infos sur la livraison: 🚚 Livraison gratuite à partir de 49 € | Paiement sécurisé
+				Appel à l'action: 🛒 Ajouter au panier €42,00 | ✅ En stock | Quantité`
 		},
-		images: ['https://www.dogteur.com/media/catalog/product/cache/e28e11a0ab875bd6c5a23bb7e2f6325a/y/a/yarrah-bio-croquettes-au-poulet-et-poisson-sans-ce_re_ales-_grain-free_-pour-chat-2_4-kg_2_2.jpg'],
-		price: 26.0,
+		images: ['https://example.com/senior-health-dog-food.jpg'],
+		price: 42.0,
 		currency: '€',
-		tags: ['grain-free'],
+		tags: ['senior', 'health'],
 		benefits: [
-			{ icon: '🌱', text: '100% natural & organic ingredients' },
-			{ icon: '🥩', text: 'High meat content for better digestion' },
-			{ icon: '🐕', text: 'Perfectly suited for cats' },
-			{ icon: '🌿', text: 'Grain-free & no artificial additives' }
-		],
-		weight: '12 kg',
-		loyaltyPoints: 26,
-		shippingInfo: '🚚 Free delivery from €49 | Secure payment',
-		callToAction: {
-			buttonText: '🛒 Add to Cart €26,00',
-			inStock: '✅ In stock',
-			quantityLabel: 'Quantity'
-		}
+			{ icon: '🌱', text: 'Supports joint and bone health' },
+			{ icon: '🥩', text: 'Rich in essential nutrients' },
+			{ icon: '🐕', text: 'Perfect for senior dogs' }
+		]
 	},
 	{
 		id: 11,
-		handle: 'high-protein-cat-food',
+		handle: 'active-dog-food',
 		title: {
-			en: 'Scrumbles High-Protein Cat Food',
-			de: 'Scrumbles Proteinreiches Katzenfutter',
-			fr: 'Nourriture riche en protéines pour chats Scrumbles'
+			en: 'Active Dog Food',
+			de: 'Aktive Hunde Hundefutter',
+			fr: 'Nourriture pour chiens actifs'
 		},
 		description: {
-			en: 'High-protein food for active and energetic cats.',
-			de: 'Proteinreiches Futter für aktive und energiegeladene Katzen.',
-			fr: 'Nourriture riche en protéines pour chats actifs et énergiques.'
+			en: `High-energy formula for active and working dogs.
+				Weight: 13 kg
+				Loyalty Points: 55
+				Shipping Info: 🚚 Free delivery from €49 | Secure payment
+				Call to Action: 🛒 Add to Cart €55,00 | ✅ In stock | Quantity`,
+			de: `Hochenergetische Formel für aktive und arbeitende Hunde.
+				Gewicht: 13 kg
+				Treuepunkte: 55
+				Versandinfo: 🚚 Kostenlose Lieferung ab 49 € | Sichere Zahlung
+				Aktion: 🛒 In den Warenkorb €55,00 | ✅ Auf Lager | Menge`,
+			fr: `Formule riche en énergie pour les chiens actifs et de travail.
+				Poids: 13 kg
+				Points de fidélité: 55
+				Infos sur la livraison: 🚚 Livraison gratuite à partir de 49 € | Paiement sécurisé
+				Appel à l'action: 🛒 Ajouter au panier €55,00 | ✅ En stock | Quantité`
 		},
-		images: ['https://scrumbles.co.uk/cdn/shop/files/chicken-dry-cat-fooddry-cat-foodscrumbles-natural-pet-foodcac10-931741.jpg?v=1720002077&width=500'],
-		price: 30.0,
+		images: ['https://example.com/active-dog-food.jpg'],
+		price: 55.0,
 		currency: '€',
-		tags: ['high-protein'],
+		tags: ['active', 'energy'],
 		benefits: [
-			{ icon: '🌱', text: '100% natural & organic ingredients' },
-			{ icon: '🥩', text: 'High meat content for better digestion' },
-			{ icon: '🐕', text: 'Perfectly suited for cats' },
-			{ icon: '🌿', text: 'Grain-free & no artificial additives' }
-		],
-		weight: '12 kg',
-		loyaltyPoints: 30,
-		shippingInfo: '🚚 Free delivery from €49 | Secure payment',
-		callToAction: {
-			buttonText: '🛒 Add to Cart €30,00',
-			inStock: '✅ In stock',
-			quantityLabel: 'Quantity'
-		}
+			{ icon: '🌱', text: 'Boosts energy levels' },
+			{ icon: '🥩', text: 'High protein for muscle recovery' },
+			{ icon: '🐕', text: 'Ideal for active lifestyles' }
+		]
 	},
 	{
 		id: 12,
-		handle: 'hairball-control-cat-food',
+		handle: 'small-breed-dog-food',
 		title: {
-			en: 'Purrfect Bistro Hairball Control Cat Food',
-			de: 'Purrfect Bistro Haarballenkontroll-Katzenfutter',
-			fr: 'Nourriture pour chats anti-boules de poils Purrfect Bistro'
+			en: 'Small Breed Dog Food',
+			de: 'Kleine Rassen Hundefutter',
+			fr: 'Nourriture pour petites races de chiens'
 		},
 		description: {
-			en: 'Helps reduce hairballs in cats.',
-			de: 'Hilft, Haarballen bei Katzen zu reduzieren.',
-			fr: 'Aide à réduire les boules de poils chez les chats.'
+			en: `Tailored nutrition for small breed dogs.
+				Weight: 7 kg
+				Loyalty Points: 30
+				Shipping Info: 🚚 Free delivery from €49 | Secure payment
+				Call to Action: 🛒 Add to Cart €30,00 | ✅ In stock | Quantity`,
+			de: `Maßgeschneiderte Ernährung für kleine Hunderassen.
+				Gewicht: 7 kg
+				Treuepunkte: 30
+				Versandinfo: 🚚 Kostenlose Lieferung ab 49 € | Sichere Zahlung
+				Aktion: 🛒 In den Warenkorb €30,00 | ✅ Auf Lager | Menge`,
+			fr: `Nutrition adaptée pour les petites races de chiens.
+				Poids: 7 kg
+				Points de fidélité: 30
+				Infos sur la livraison: 🚚 Livraison gratuite à partir de 49 € | Paiement sécurisé
+				Appel à l'action: 🛒 Ajouter au panier €30,00 | ✅ En stock | Quantité`
 		},
-		images: ['https://cdn11.bigcommerce.com/s-xfu1s3ki5p/images/stencil/1280x1280/products/10945/1398/134274152-1__10136.1631551764.jpg?c=1'],
-		price: 29.0,
+		images: ['https://example.com/small-breed-dog-food.jpg'],
+		price: 30.0,
 		currency: '€',
-		tags: ['hairball-control'],
+		tags: ['small-breed'],
 		benefits: [
-			{ icon: '🌱', text: '100% natural & organic ingredients' },
-			{ icon: '🥩', text: 'High meat content for better digestion' },
-			{ icon: '🐕', text: 'Perfectly suited for cats' },
-			{ icon: '🌿', text: 'Grain-free & no artificial additives' }
-		],
-		weight: '12 kg',
-		loyaltyPoints: 29,
-		shippingInfo: '🚚 Free delivery from €49 | Secure payment',
-		callToAction: {
-			buttonText: '🛒 Add to Cart €29,00',
-			inStock: '✅ In stock',
-			quantityLabel: 'Quantity'
-		}
+			{ icon: '🌱', text: 'Small kibble size for easy chewing' },
+			{ icon: '🥩', text: 'Balanced nutrition for small breeds' },
+			{ icon: '🐕', text: 'Promotes healthy skin and coat' }
+		]
 	},
 	{
 		id: 13,
-		handle: 'weight-control-cat-food',
+		handle: 'large-breed-dog-food',
 		title: {
-			en: 'Optimeal Weight Control Cat Food',
-			de: 'Optimeal Gewichtskontroll-Katzenfutter',
-			fr: 'Nourriture pour chats pour le contrôle du poids Optimeal'
+			en: 'Large Breed Dog Food',
+			de: 'Große Rassen Hundefutter',
+			fr: 'Nourriture pour grandes races de chiens'
 		},
 		description: {
-			en: 'Helps maintain a healthy weight for your cat.',
-			de: 'Hilft, ein gesundes Gewicht für Ihre Katze zu halten.',
-			fr: 'Aide à maintenir un poids santé pour votre chat.'
+			en: `Specially formulated for large breed dogs.
+				Weight: 15 kg
+				Loyalty Points: 60
+				Shipping Info: 🚚 Free delivery from €49 | Secure payment
+				Call to Action: 🛒 Add to Cart €60,00 | ✅ In stock | Quantity`,
+			de: `Speziell für große Hunderassen entwickelt.
+				Gewicht: 15 kg
+				Treuepunkte: 60
+				Versandinfo: 🚚 Kostenlose Lieferung ab 49 € | Sichere Zahlung
+				Aktion: 🛒 In den Warenkorb €60,00 | ✅ Auf Lager | Menge`,
+			fr: `Formulé spécialement pour les grandes races de chiens.
+				Poids: 15 kg
+				Points de fidélité: 60
+				Infos sur la livraison: 🚚 Livraison gratuite à partir de 49 € | Paiement sécurisé
+				Appel à l'action: 🛒 Ajouter au panier €60,00 | ✅ En stock | Quantité`
 		},
-		images: ['https://m.media-amazon.com/images/I/81cjeJFWxUL.jpg'],
-		price: 25.0,
+		images: ['https://example.com/large-breed-dog-food.jpg'],
+		price: 60.0,
 		currency: '€',
-		tags: ['weight-control'],
+		tags: ['large-breed'],
 		benefits: [
-			{ icon: '🌱', text: '100% natural & organic ingredients' },
-			{ icon: '🥩', text: 'High meat content for better digestion' },
-			{ icon: '🐕', text: 'Perfectly suited for cats' },
-			{ icon: '🌿', text: 'Grain-free & no artificial additives' }
-		],
-		weight: '12 kg',
-		loyaltyPoints: 25,
-		shippingInfo: '🚚 Free delivery from €49 | Secure payment',
-		callToAction: {
-			buttonText: '🛒 Add to Cart €25,00',
-			inStock: '✅ In stock',
-			quantityLabel: 'Quantity'
-		}
+			{ icon: '🌱', text: 'Supports joint and bone health' },
+			{ icon: '🥩', text: 'High protein for muscle strength' },
+			{ icon: '🐕', text: 'Tailored for large breeds' }
+		]
 	},
 	{
 		id: 14,
-		handle: 'organic-kitten-food',
+		handle: 'dental-care-dog-food',
 		title: {
-			en: 'Organix Organic Kitten Food',
-			de: 'Organix Bio-Kittenfutter',
-			fr: 'Nourriture bio pour chatons Organix'
+			en: 'Dental Care Dog Food',
+			de: 'Zahnpflege Hundefutter',
+			fr: 'Nourriture pour chiens soin dentaire'
 		},
 		description: {
-			en: 'Premium organic food for growing kittens.',
-			de: 'Premium Bio-Futter für wachsende Kätzchen.',
-			fr: 'Nourriture bio premium pour chatons en croissance.'
+			en: `Promotes dental health and reduces tartar buildup.
+				Weight: 10 kg
+				Loyalty Points: 35
+				Shipping Info: 🚚 Free delivery from €49 | Secure payment
+				Call to Action: 🛒 Add to Cart €35,00 | ✅ In stock | Quantity`,
+			de: `Fördert die Zahngesundheit und reduziert Zahnsteinbildung.
+				Gewicht: 10 kg
+				Treuepunkte: 35
+				Versandinfo: 🚚 Kostenlose Lieferung ab 49 € | Sichere Zahlung
+				Aktion: 🛒 In den Warenkorb €35,00 | ✅ Auf Lager | Menge`,
+			fr: `Favorise la santé dentaire et réduit l'accumulation de tartre.
+				Poids: 10 kg
+				Points de fidélité: 35
+				Infos sur la livraison: 🚚 Livraison gratuite à partir de 49 € | Paiement sécurisé
+				Appel à l'action: 🛒 Ajouter au panier €35,00 | ✅ En stock | Quantité`
 		},
-		images: ['https://m.media-amazon.com/images/I/81imFSI3WSL._AC_UF1000,1000_QL80_.jpg'],
-		price: 22.0,
+		images: ['https://example.com/dental-care-dog-food.jpg'],
+		price: 35.0,
 		currency: '€',
-		tags: ['organic'],
+		tags: ['dental-care'],
 		benefits: [
-			{ icon: '🌱', text: '100% natural & organic ingredients' },
-			{ icon: '🥩', text: 'High meat content for better digestion' },
-			{ icon: '🐕', text: 'Perfectly suited for kittens' },
-			{ icon: '🌿', text: 'Grain-free & no artificial additives' }
-		],
-		weight: '12 kg',
-		loyaltyPoints: 22,
-		shippingInfo: '🚚 Free delivery from €49 | Secure payment',
-		callToAction: {
-			buttonText: '🛒 Add to Cart €22,00',
-			inStock: '✅ In stock',
-			quantityLabel: 'Quantity'
-		}
+			{ icon: '🌱', text: 'Reduces tartar buildup' },
+			{ icon: '🥩', text: 'Supports healthy gums' },
+			{ icon: '🐕', text: 'Freshens breath' }
+		]
 	},
 	{
 		id: 15,
-		handle: 'kitten-starter-kit',
+		handle: 'skin-and-coat-dog-food',
 		title: {
-			en: 'Nature range Kitten Starter Kit',
-			de: 'Nature range Kitten-Starterpaket',
-			fr: 'Kit de démarrage pour chatons Nature range'
+			en: 'Skin and Coat Dog Food',
+			de: 'Haut und Fell Hundefutter',
+			fr: 'Nourriture pour chiens peau et pelage'
 		},
 		description: {
-			en: 'A complete starter kit for your new kitten.',
-			de: 'Ein komplettes Starterpaket für Ihr neues Kätzchen.',
-			fr: 'Un kit de démarrage complet pour votre nouveau chaton.'
+			en: `Enhances skin health and promotes a shiny coat.
+				Weight: 9 kg
+				Loyalty Points: 40
+				Shipping Info: 🚚 Free delivery from €49 | Secure payment
+				Call to Action: 🛒 Add to Cart €40,00 | ✅ In stock | Quantity`,
+			de: `Verbessert die Hautgesundheit und fördert ein glänzendes Fell.
+				Gewicht: 9 kg
+				Treuepunkte: 40
+				Versandinfo: 🚚 Kostenlose Lieferung ab 49 € | Sichere Zahlung
+				Aktion: 🛒 In den Warenkorb €40,00 | ✅ Auf Lager | Menge`,
+			fr: `Améliore la santé de la peau et favorise un pelage brillant.
+				Poids: 9 kg
+				Points de fidélité: 40
+				Infos sur la livraison: 🚚 Livraison gratuite à partir de 49 € | Paiement sécurisé
+				Appel à l'action: 🛒 Ajouter au panier €40,00 | ✅ En stock | Quantité`
 		},
-		images: ['https://www.shop.thepethealthclub.co.uk/cdn/shop/products/natures-range-kitten-chk.png?v=1654690217'],
-		price: 45.0,
+		images: ['https://example.com/skin-and-coat-dog-food.jpg'],
+		price: 40.0,
 		currency: '€',
-		tags: ['starter-kit'],
+		tags: ['skin-and-coat'],
 		benefits: [
-			{ icon: '🌱', text: '100% natural & organic ingredients' },
-			{ icon: '🥩', text: 'High meat content for better digestion' },
-			{ icon: '🐕', text: 'Perfectly suited for kittens' },
-			{ icon: '🌿', text: 'Grain-free & no artificial additives' }
-		],
-		weight: '12 kg',
-		loyaltyPoints: 45,
-		shippingInfo: '🚚 Free delivery from €49 | Secure payment',
-		callToAction: {
-			buttonText: '🛒 Add to Cart €45,00',
-			inStock: '✅ In stock',
-			quantityLabel: 'Quantity'
-		}
+			{ icon: '🌱', text: 'Rich in omega-3 and omega-6' },
+			{ icon: '🥩', text: 'Promotes healthy skin' },
+			{ icon: '🐕', text: 'Enhances coat shine' }
+		]
 	},
 	{
 		id: 16,
-		handle: 'senior-cat-health',
+		handle: 'digestive-care-dog-food',
 		title: {
-			en: 'IAMS Senior Cat Health Food',
-			de: 'IAMS Senioren-Katzenfutter',
-			fr: 'Nourriture santé pour chats âgés IAMS'
+			en: 'Digestive Care Dog Food',
+			de: 'Verdauungspflege Hundefutter',
+			fr: 'Nourriture pour chiens soin digestif'
 		},
 		description: {
-			en: 'Specially formulated food for senior cats.',
-			de: 'Speziell formuliertes Futter für ältere Katzen.',
-			fr: 'Nourriture spécialement formulée pour chats âgés.'
+			en: `Supports healthy digestion and gut health.
+				Weight: 10 kg
+				Loyalty Points: 45
+				Shipping Info: 🚚 Free delivery from €49 | Secure payment
+				Call to Action: 🛒 Add to Cart €45,00 | ✅ In stock | Quantity`,
+			de: `Unterstützt eine gesunde Verdauung und Darmgesundheit.
+				Gewicht: 10 kg
+				Treuepunkte: 45
+				Versandinfo: 🚚 Kostenlose Lieferung ab 49 € | Sichere Zahlung
+				Aktion: 🛒 In den Warenkorb €45,00 | ✅ Auf Lager | Menge`,
+			fr: `Soutient une digestion saine et la santé intestinale.
+				Poids: 10 kg
+				Points de fidélité: 45
+				Infos sur la livraison: 🚚 Livraison gratuite à partir de 49 € | Paiement sécurisé
+				Appel à l'action: 🛒 Ajouter au panier €45,00 | ✅ En stock | Quantité`
 		},
-		images: ['https://www.petsense.com/cdn/shop/products/38399-1452192221_c09c48c6-4ae4-4312-b0f2-c34da7c61252.jpg?v=1739292384'],
-		price: 28.0,
+		images: ['https://example.com/digestive-care-dog-food.jpg'],
+		price: 45.0,
 		currency: '€',
-		tags: ['senior'],
+		tags: ['digestive-care'],
 		benefits: [
-			{ icon: '🌱', text: '100% natural & organic ingredients' },
-			{ icon: '🥩', text: 'High meat content for better digestion' },
-			{ icon: '🐕', text: 'Perfectly suited for senior cats' },
-			{ icon: '🌿', text: 'Grain-free & no artificial additives' }
-		],
-		weight: '12 kg',
-		loyaltyPoints: 28,
-		shippingInfo: '🚚 Free delivery from €49 | Secure payment',
-		callToAction: {
-			buttonText: '🛒 Add to Cart €28,00',
-			inStock: '✅ In stock',
-			quantityLabel: 'Quantity'
-		}
-	},
+			{ icon: '🌱', text: 'Improves gut health' },
+			{ icon: '🥩', text: 'Easily digestible ingredients' },
+			{ icon: '🐕', text: 'Reduces digestive discomfort' }
+		]
+	}
 ];
 
 export default products;
