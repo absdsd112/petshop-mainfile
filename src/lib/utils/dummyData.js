@@ -8,21 +8,9 @@ const products = [
 			fr: 'Nourriture bio pour chiens HIGH MEAT WILD PRAIRIE'
 		},
 		description: {
-			en: `Premium organic dog food made with natural ingredients.
-				Weight: 12 kg
-				Loyalty Points: 25
-				Shipping Info: 🚚 Free delivery from €49 | Secure payment
-				Call to Action: 🛒 Add to Cart €25,00 | ✅ In stock | Quantity`,
-			de: `Premium Bio-Hundefutter aus natürlichen Zutaten.
-				Gewicht: 12 kg
-				Treuepunkte: 25
-				Versandinfo: 🚚 Kostenlose Lieferung ab 49 € | Sichere Zahlung
-				Aktion: 🛒 In den Warenkorb €25,00 | ✅ Auf Lager | Menge`,
-			fr: `Nourriture bio premium pour chiens, fabriquée avec des ingrédients naturels.
-				Poids: 12 kg
-				Points de fidélité: 25
-				Infos sur la livraison: 🚚 Livraison gratuite à partir de 49 € | Paiement sécurisé
-				Appel à l'action: 🛒 Ajouter au panier €25,00 | ✅ En stock | Quantité`
+		en: "Premium organic puppy food made with natural ingredients.\nWeight: 12 kg\nLoyalty Points: 20\nShipping Info: 🚚 Free delivery from €49 | Secure payment\nCall to Action: 🛒 Add to Cart €20,00 | ✅ In stock | ",
+			de: "Premium Bio-Hundefutter aus natürlichen Zutaten.\nGewicht: 12 kg\nTreuepunkte: 20\nVersandinfo: 🚚 Kostenlose Lieferung ab 49 € | Sichere Zahlung\nAktion: 🛒 In den Warenkorb €20,00 | ✅ Auf Lager | ",
+			fr: "Nourriture bio premium pour chiots, fabriquée avec des ingrédients naturels.\nPoids: 12 kg\nPoints de fidélité: 20\nInfos sur la livraison: 🚚 Livraison gratuite à partir de 49 € | Paiement sécurisé\nAppel à l'action: 🛒 Ajouter au panier €20,00 | ✅ En stock | "
 		},
 		images: ['https://www.naturedog.fr/34040-large_default/croquettes-high-meat-wild-prairie-grain-free-12kg.jpg'],
 		price: 25.0,
